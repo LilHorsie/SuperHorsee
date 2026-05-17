@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SG Parking Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="app-header">
+        <div class="header-container">
+            <div class="header-top">
+                <h1>🚗 SG Parking Hub</h1>
+                <button id="themeToggle" class="theme-btn">🌙 Dark Mode</button>
+            </div>
+            <p>Real-time HDB availability & Mall pricing directory</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="tabs">
+            <button class="tab-btn active" data-target="hdb-section">HDB Availability</button>
+            <button class="tab-btn" data-target="mall-section">Mall Rates</button>
+        </div>
+
+        <section class="search-container">
+            <input type="text" id="searchInput" placeholder="Search by name, carpark number, or address..." aria-label="Search">
+            <button class="btn-clear" id="clearBtn">Clear</button>
+        </section>
+
+        <div id="loadingMessage" class="status-message info">Loading real-time data...</div>
+        <div id="errorMessage" class="status-message error hidden"></div>
+        <div id="noResults" class="status-message warning hidden">No results found matching your search.</div>
+
+        <section id="hdb-section" class="tab-content active">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Carpark No.</th>
+                            <th>Address</th>
+                            <th>Total Lots</th>
+                            <th class="sortable" id="sortHdb">Available Lots ↕</th>
+                        </tr>
+                    </thead>
+                    <tbody id="hdbTableBody"></tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="mall-section" class="tab-content">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Mall Name</th>
+                            <th>Total Lots</th>
+                            <th>Weekday (Before 5PM)</th>
+                            <th>Weekday (After 5PM)</th>
+                            <th>Weekends & PH</th>
+                        </tr>
+                    </thead>
+                    <tbody id="mallTableBody"></tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

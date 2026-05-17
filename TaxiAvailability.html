@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HDB Carpark Locations</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <style>
+        body { 
+            margin: 0; 
+            padding: 0; 
+            font-family: Arial, sans-serif; 
+        }
+        #map { 
+            width: 100vw; 
+            height: 100vh; 
+        }
+        #info-panel {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 15px;
+            border-radius: 8px;
+            z-index: 1000;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            min-width: 200px;
+        }
+        h3 {
+            margin: 0 0 10px 0;
+            font-size: 16px;
+            color: #333;
+        }
+        .stat {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 5px;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #1565c0; 
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="info-panel">
+        <h3>HDB Carpark Information</h3>
+        <div id="status">Loading data...</div>
+    </div>
+
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.9.0/proj4.js"></script>
+    
+    <script>
+
+        proj4.defs("EPSG:3414", "+proj=tmerc +lat_0=1.366666666666667 +lon_0=103.8333333333333 +k=1 +x_0=28001.642 +y_0=38744.572 +ellps=WGS84 +units=m +no_defs");
+
+
+        const map = L.map('map').setView([1.3521, 103.8198], 12);
+
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+
+        const carparkMarkerOptions = {
+            radius: 4,
+            fillColor: "#1565c0",
+            color: "#ffffff",
+            weight: 1,
+            opacity: 1,
+            fillOpacity: 0.8
+        };
+
+        async function fetchCarparkData() {
+            const statusDiv = document.getElementById('status');
+            try {
+
+                const response = await fetch('./HDBCarparkInformation.json');
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                let carparkCount = 0;
+
+
+                data.forEach(carpark => {
+                    const x = parseFloat(carpark.x_coord);
+                    const y = parseFloat(carpark.y_coord);
+
+                    if (!isNaN(x) && !isNaN(y) && x > 0 && y > 0) {
+                        
+                        const wgs84 = proj4("EPSG:3414", "EPSG:4326", [x, y]);
+                        const lng = wgs84[0];
+                        const lat = wgs84[1];
+
+                        const marker = L.circleMarker([lat, lng], carparkMarkerOptions).addTo(map);
+                        
+
+                        marker.bindPopup(`
+                            <div style="font-size: 14px;">
+                                <strong style="color: #1565c0;">${carpark.address}</strong><br><br>
+                                <strong>Type:</strong> ${carpark.car_park_type}<br>
+                                <strong>System:</strong> ${carpark.type_of_parking_system}<br>
+                                <strong>Free Parking:</strong> ${carpark.free_parking}<br>
+                                <strong>Night Parking:</strong> ${carpark.night_parking}
+                            </div>
+                        `);
+
+                        carparkCount++;
+                    }
+                });
+
+
+                statusDiv.innerHTML = `
+                    <div class="stat">Total Carparks: <span class="highlight">${carparkCount.toLocaleString()}</span></div>
+                    <div class="stat">Data loaded successfully.</div>
+                    <div class="stat" style="font-size: 12px; margin-top: 5px;"><i>Click any dot for details.</i></div>
+                `;
+
+            } catch (error) {
+                console.error('Error fetching carpark data:', error);
+                statusDiv.innerHTML = `<span style="color: red;">Error: Cannot load <b>HDBCarparkInformation.json</b>. Make sure you are using a local web server (see instructions below).</span>`;
+            }
+        }
+
+   
+        fetchCarparkData();
+    </script>
+</body>
+</html>

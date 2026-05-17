@@ -1,0 +1,1509 @@
+[
+    {
+        "mall_name": "Aperia",
+        "region": "East",
+        "total_carpark_lots": null,
+        "pricing": {
+            "weekdays_before_5pm": "12.00am-6.29pm: $1.64 for 1st hr; $1.09 for sub. 15min",
+            "weekdays_after_5pm": "6.30pm-9.59pm: Free Parking; 10pm-11.59pm: $2.55 per entry",
+            "saturdays": "12.00am to 11.59pm: Free first 1 hour; $2.55 for subsequent hours; Max cap: $20",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Bedok Mall",
+        "region": "East",
+        "total_carpark_lots": 260,
+        "pricing": {
+            "weekdays_before_5pm": "12.00am-5.59pm: $1.55 for 1st hr, $0.40 for sub. 15min",
+            "weekdays_after_5pm": "6pm-11.59pm: $2.60 per entry",
+            "saturdays": "Same as weekdays",
+            "sundays_and_ph": "Same as weekdays"
+        }
+    },
+    {
+        "mall_name": "Century Square",
+        "region": "East",
+        "total_carpark_lots": 204,
+        "pricing": {
+            "weekdays_before_5pm": "6.00am-5.59pm: $1.35 for 1st hr; $0.70 every 30min",
+            "weekdays_after_5pm": "6.01pm-5.59am: $2.60 per entry",
+            "saturdays": "6.00am-5.59pm: $1.60 for 1st hr; $0.70 every 30min; 6.01pm-5.59am: $2.60 per entry",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Changi City Point",
+        "region": "East",
+        "total_carpark_lots": 627,
+        "pricing": {
+            "weekdays_before_5pm": "6.01am-6.00pm: $1.50 for 1st hr; $0.75 for sub. 30min",
+            "weekdays_after_5pm": "6.01pm-6.00am: $2.70 per entry",
+            "saturdays": "6.01am-6.00pm: $2.70 for 1st 2hr; $1.30 for sub. 30min; 6.01pm-6.00am: $2.70 per entry",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "City Plaza",
+        "region": "East",
+        "total_carpark_lots": null,
+        "pricing": {
+            "weekdays_before_5pm": "8.00am-5.00pm: $1.20 for 1st hr; $0.70 for next sub. 30min",
+            "weekdays_after_5pm": "5.00pm-8.00am the following day: $1.50 per entry",
+            "saturdays": "Same as weekdays",
+            "sundays_and_ph": "8am-8am the following day: $1.50 per entry"
+        }
+    },
+    {
+        "mall_name": "Downtown East",
+        "region": "East",
+        "total_carpark_lots": 1000,
+        "pricing": {
+            "weekdays_before_5pm": "Mon-Thu $0.026/min (Max $15). Free weekday 12pm-2pm parking",
+            "weekdays_after_5pm": "5.00pm-12.00am: $2.40 per entry. Max/day:$15",
+            "saturdays": "$0.028 per min; 5.00pm-12.00am: $3.40 per entry. Max/day: $19.",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Eastpoint Mall",
+        "region": "East",
+        "total_carpark_lots": null,
+        "pricing": {
+            "weekdays_before_5pm": "Daily: $1.30 for 1st hr, $0.65 for sub. 30min",
+            "weekdays_after_5pm": "Same as weekdays before 5pm",
+            "saturdays": "Same as weekdays before 5pm",
+            "sundays_and_ph": "Same as weekdays before 5pm"
+        }
+    },
+    {
+        "mall_name": "I12 Katong",
+        "region": "East",
+        "total_carpark_lots": 250,
+        "pricing": {
+            "weekdays_before_5pm": "$1.50 for 1st hr, $0.80 for sub 30mins",
+            "weekdays_after_5pm": "Same as weekdays before 5pm",
+            "saturdays": "Same as weekdays before 5pm",
+            "sundays_and_ph": "Same as weekdays before 5pm"
+        }
+    },
+    {
+        "mall_name": "Parkway Parade",
+        "region": "East",
+        "total_carpark_lots": 1200,
+        "pricing": {
+            "weekdays_before_5pm": "$1.50 for 1st hr, $0.80 for sub 30mins",
+            "weekdays_after_5pm": "Same as weekdays before 5pm",
+            "saturdays": "$1.60 for 1st hr, $0.90 for sub 30mins",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Tampines Mall",
+        "region": "East",
+        "total_carpark_lots": 600,
+        "pricing": {
+            "weekdays_before_5pm": "$1.40 for 1st hr; $0.70 every 30min",
+            "weekdays_after_5pm": "6.00pm-5.59am: $2.60 per entry",
+            "saturdays": "$1.60 for 1st hr; $0.70 every 30min; 6.00pm-5.59am: $2.60 per entry",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Tampines 1",
+        "region": "East",
+        "total_carpark_lots": 204,
+        "pricing": {
+            "weekdays_before_5pm": "$1.35 for 1st hr; $0.70 every 30min",
+            "weekdays_after_5pm": "6.00pm-5.59am: $2.60 per entry",
+            "saturdays": "$1.60 for 1st hr; $0.70 every 30min; 6.00pm-5.59am: $2.60 per entry",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "White Sands",
+        "region": "East",
+        "total_carpark_lots": 280,
+        "pricing": {
+            "weekdays_before_5pm": "$1.35 for 1st hr, $0.65 for sub 30mins",
+            "weekdays_after_5pm": "$2.50 per entry after 6pm",
+            "saturdays": "$1.50 for 1st hr, $0.65 for sub 30mins. $2.50 per entry after 6pm",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Anchorpoint Shopping Centre",
+        "region": "West",
+        "total_carpark_lots": null,
+        "pricing": {
+            "weekdays_before_5pm": "1st hour: $1.98/hr; 2nd hour: $1.40/hr; After 3 hours: $1.00/hr",
+            "weekdays_after_5pm": "After 6.00pm: $2.98 per entry",
+            "saturdays": "Same as weekdays",
+            "sundays_and_ph": "Same as weekdays"
+        }
+    },
+    {
+        "mall_name": "Alexandra Retail Centre",
+        "region": "West",
+        "total_carpark_lots": null,
+        "pricing": {
+            "weekdays_before_5pm": "7:00am-6:30pm: $2.50 per hr",
+            "weekdays_after_5pm": "6.30pm-10.00pm: Free; 10.00pm-7.00am: $2.70/hr",
+            "saturdays": "7.00am-10.00pm: Free; 10.00pm-7.00am: $2.70/hr",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Bukit Panjang Plaza",
+        "region": "West",
+        "total_carpark_lots": 334,
+        "pricing": {
+            "weekdays_before_5pm": "12.00am-5.59pm: $1.40 for 1st hr; $0.45 for sub. 15 min",
+            "weekdays_after_5pm": "6.00pm-11.59pm: $2.75 per entry",
+            "saturdays": "12.00am-5.59pm: $2.75 for 1st 2 hrs; $0.45 for sub. 15 min; 6.00pm-11.59pm: $2.75 per entry",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Bukit Timah Plaza",
+        "region": "West",
+        "total_carpark_lots": null,
+        "pricing": {
+            "weekdays_before_5pm": "7.30am-5.00pm: $1.65 per hr",
+            "weekdays_after_5pm": "5.01pm-7.29am: $2.85 per entry",
+            "saturdays": "7.30am-5.00pm: $1.80 per hr; 5.01pm-7.29.00am: $2.85 per entry",
+            "sundays_and_ph": "7.30am-5.00pm: $2.85 for first 3 hours; $1.65 for sub. 1 hour; 5.01pm-7.29am: $2.85 per entry"
+        }
+    },
+    {
+        "mall_name": "Bukit Timah Shopping Centre",
+        "region": "West",
+        "total_carpark_lots": null,
+        "pricing": {
+            "weekdays_before_5pm": "7.00am-5.00pm: $1.93 per hr",
+            "weekdays_after_5pm": "5.01pm-7.00am: $3.64 per entry",
+            "saturdays": "Same as weekdays",
+            "sundays_and_ph": "Same as weekdays"
+        }
+    },
+    {
+        "mall_name": "Coronation Shopping Plaza",
+        "region": "West",
+        "total_carpark_lots": null,
+        "pricing": {
+            "weekdays_before_5pm": "Daily: $2.30 per hr",
+            "weekdays_after_5pm": "Daily: $2.30 per hr",
+            "saturdays": "Same as weekdays",
+            "sundays_and_ph": "Same as weekdays"
+        }
+    },
+    {
+        "mall_name": "Clementi Mall",
+        "region": "West",
+        "total_carpark_lots": 280,
+        "pricing": {
+            "weekdays_before_5pm": "$1.50 for 1st hr, $0.80 for sub 30mins",
+            "weekdays_after_5pm": "Same as weekdays before 5pm",
+            "saturdays": "Same as weekdays before 5pm",
+            "sundays_and_ph": "Same as weekdays before 5pm"
+        }
+    },
+    {
+        "mall_name": "Hillion Mall",
+        "region": "West",
+        "total_carpark_lots": 350,
+        "pricing": {
+            "weekdays_before_5pm": "$1.50 for 1st hr, $0.50 for sub 15mins",
+            "weekdays_after_5pm": "Same as weekdays before 5pm",
+            "saturdays": "$2.00 for 1st hr, $0.50 for sub 15mins",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "hillV2",
+        "region": "West",
+        "total_carpark_lots": null,
+        "pricing": {
+            "weekdays_before_5pm": "Daily: $1.53 for 1st hr; $0.92 for every sub. 30min",
+            "weekdays_after_5pm": "Daily: $1.53 for 1st hr; $0.92 for every sub. 30min",
+            "saturdays": "Same as weekdays",
+            "sundays_and_ph": "Same as weekdays"
+        }
+    },
+    {
+        "mall_name": "Holland Road Shopping Centre",
+        "region": "West",
+        "total_carpark_lots": null,
+        "pricing": {
+            "weekdays_before_5pm": "12.00am-9.00pm: $2.40 per 30min",
+            "weekdays_after_5pm": "9.00pm-12.00am: $5.00 per entry",
+            "saturdays": "12.00am-9.00pm: $2.40 per 30min; 9.00pm-12.00am: $6.00 per entry.",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "IMM",
+        "region": "West",
+        "total_carpark_lots": 1300,
+        "pricing": {
+            "weekdays_before_5pm": "Free parking daily for 1st hour",
+            "weekdays_after_5pm": "Standard rates apply after 1st hour",
+            "saturdays": "Free parking daily for 1st hour",
+            "sundays_and_ph": "Free parking daily for 1st hour"
+        }
+    },
+    {
+        "mall_name": "Jem",
+        "region": "West",
+        "total_carpark_lots": 800,
+        "pricing": {
+            "weekdays_before_5pm": "$1.40 for 1st hr, $0.70 for sub 30mins",
+            "weekdays_after_5pm": "$2.50 per entry after 6pm",
+            "saturdays": "$1.50 for 1st hr, $0.70 for sub 30mins. $2.50 per entry after 6pm",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Jurong Point",
+        "region": "West",
+        "total_carpark_lots": 1500,
+        "pricing": {
+            "weekdays_before_5pm": "$1.40 for 1st 2 hrs, $0.70 for sub 30mins",
+            "weekdays_after_5pm": "Same as weekdays before 5pm",
+            "saturdays": "$1.50 for 1st 2 hrs, $0.80 for sub 30mins",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Lot One",
+        "region": "West",
+        "total_carpark_lots": 350,
+        "pricing": {
+            "weekdays_before_5pm": "$1.30 for 1st hr, $0.45 for sub 15mins",
+            "weekdays_after_5pm": "$2.50 per entry after 6pm",
+            "saturdays": "$1.40 for 1st hr, $0.45 for sub 15mins. $2.50 per entry after 6pm",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "The Star Vista",
+        "region": "West",
+        "total_carpark_lots": 800,
+        "pricing": {
+            "weekdays_before_5pm": "Midnight to 11.59pm: $1.30 for 1st hr, $0.65 for next sub 30min",
+            "weekdays_after_5pm": "Same as weekdays before 5pm",
+            "saturdays": "Same as weekdays before 5pm",
+            "sundays_and_ph": "Midnight to 11.59pm: $2.14 for 1st hr, $1.07 for next sub 30min"
+        }
+    },
+    {
+        "mall_name": "Westgate",
+        "region": "West",
+        "total_carpark_lots": 500,
+        "pricing": {
+            "weekdays_before_5pm": "$1.40 for 1st hr, $0.70 for sub 30mins",
+            "weekdays_after_5pm": "$2.50 per entry after 6pm",
+            "saturdays": "$1.50 for 1st hr, $0.70 for sub 30mins. $2.50 per entry after 6pm",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "West Mall",
+        "region": "West",
+        "total_carpark_lots": 300,
+        "pricing": {
+            "weekdays_before_5pm": "$1.40 for 1st hr, $0.70 for sub 30mins",
+            "weekdays_after_5pm": "$2.00 per entry after 6pm",
+            "saturdays": "$1.50 for 1st hr, $0.70 for sub 30mins. $2.50 per entry after 6pm",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "313@Somerset",
+        "region": "Orchard/Central",
+        "total_carpark_lots": 222,
+        "pricing": {
+            "weekdays_before_5pm": "7.00am-7.00am: $3.05 for 1st hr; $1.31 for sub. 30min",
+            "weekdays_after_5pm": "Same as weekdays before 5pm",
+            "saturdays": "7.00am-7.00am: $3.27 for 1st hr; $1.64 for sub. 30min",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Far East Plaza",
+        "region": "Orchard/Central",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "$1.60 for 1st hr, $0.55 for sub 15mins",
+            "weekdays_after_5pm": "$3.50 per entry after 5pm",
+            "saturdays": "$1.80 for 1st hr, $0.60 for sub 15mins. $4.00 per entry after 5pm",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Forum The Shopping Mall",
+        "region": "Orchard/Central",
+        "total_carpark_lots": 250,
+        "pricing": {
+            "weekdays_before_5pm": "$2.40 for 1st hr, $1.20 for sub 30mins",
+            "weekdays_after_5pm": "$3.20 per entry after 5pm",
+            "saturdays": "Same as weekdays",
+            "sundays_and_ph": "Same as weekdays"
+        }
+    },
+    {
+        "mall_name": "Great World",
+        "region": "Orchard/Central",
+        "total_carpark_lots": 1000,
+        "pricing": {
+            "weekdays_before_5pm": "$1.50 for 1st hr, $0.60 for sub 30mins",
+            "weekdays_after_5pm": "$3.00 per entry after 6pm",
+            "saturdays": "$1.60 for 1st hr, $0.60 for sub 30mins. $3.50 per entry after 6pm",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "ION Orchard",
+        "region": "Orchard/Central",
+        "total_carpark_lots": 650,
+        "pricing": {
+            "weekdays_before_5pm": "8.00am-4.59pm: $2.73 for 1st hr; $1.31 for sub. 30min",
+            "weekdays_after_5pm": "5.00pm-11.59pm: $3.05 per entry; 12.00am-7.59am: $1.09 per hr",
+            "saturdays": "8.00am-5.59pm: $2.62 for 1st hr; $1.91 for sub. 30min; 6pm-11.59pm: $3.82 per entry",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Ngee Ann City",
+        "region": "Orchard/Central",
+        "total_carpark_lots": 1000,
+        "pricing": {
+            "weekdays_before_5pm": "$1.28 per 30mins",
+            "weekdays_after_5pm": "$3.60 per entry after 5pm",
+            "saturdays": "Same as weekdays",
+            "sundays_and_ph": "$4.00 per entry for 1st 4 hrs, $1.28 for sub 30mins"
+        }
+    },
+    {
+        "mall_name": "Orchard Central",
+        "region": "Orchard/Central",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "$2.20 for 1st hr, $1.10 for sub 30mins",
+            "weekdays_after_5pm": "$4.00 per entry after 6pm",
+            "saturdays": "Same as weekdays",
+            "sundays_and_ph": "Same as weekdays"
+        }
+    },
+    {
+        "mall_name": "Paragon",
+        "region": "Orchard/Central",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "$2.90 for 1st hr, $1.50 for sub 30mins",
+            "weekdays_after_5pm": "$4.50 per entry after 5pm",
+            "saturdays": "$3.20 for 1st hr, $1.60 for sub 30mins. $4.50 per entry after 5pm",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Plaza Singapura",
+        "region": "Orchard/Central",
+        "total_carpark_lots": 700,
+        "pricing": {
+            "weekdays_before_5pm": "Mon-Thurs 12am-5.59pm: $1.60 for 1st hr; $0.50 for sub. 15mins",
+            "weekdays_after_5pm": "6pm-11.59pm: $3 per entry",
+            "saturdays": "Fri/Sat & Eve of PH: $1.60 for 1st hr; $0.50 for sub. 15mins. 6pm-2.59am: $3 per entry",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Tanglin Mall",
+        "region": "Orchard/Central",
+        "total_carpark_lots": null,
+        "pricing": {
+            "weekdays_before_5pm": "0601\u20131700: 1st Hour: $2.44. Every 30 Mins: $1.22.",
+            "weekdays_after_5pm": "1701\u20130600: 1st Hour: $2.44. Every 30 Mins: $1.22. (max cap $3.56/entry)",
+            "saturdays": "0601\u20131300: 1st Hr: $2.44. Sub 30 Mins: $1.22. 1301\u20130600: Max cap $3.56/entry",
+            "sundays_and_ph": "Whole Day. 1st Hour: $2.44. Every 30 Mins: $1.22. (max cap $3.56/entry)"
+        }
+    },
+    {
+        "mall_name": "Wisma Atria",
+        "region": "Orchard/Central",
+        "total_carpark_lots": 350,
+        "pricing": {
+            "weekdays_before_5pm": "$2.50 for 1st hr, $1.20 for sub 30mins",
+            "weekdays_after_5pm": "$3.50 per entry after 5pm",
+            "saturdays": "$2.80 for 1st hr, $1.40 for sub 30mins. $3.50 per entry after 5pm",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Bugis Junction",
+        "region": "South/CBD",
+        "total_carpark_lots": 358,
+        "pricing": {
+            "weekdays_before_5pm": "12.00am-5.59pm: $2.60 for 1st hr; $0.65 for sub. 15min",
+            "weekdays_after_5pm": "6.00pm-11.59pm: Mon-Thu: $3.30 per entry. Fri: $3.30 for 1st 2 hrs; $0.65 for sub. 15 min",
+            "saturdays": "$3.30 for 1st 2 hrs; $0.65 for sub. 15 min",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Bugis+",
+        "region": "South/CBD",
+        "total_carpark_lots": 319,
+        "pricing": {
+            "weekdays_before_5pm": "12.00am-5.59pm: $2.20 for 1st hr; $0.55 for sub. 15 min",
+            "weekdays_after_5pm": "6.00pm-11.59pm: Mon-Thu: $3.30 per entry; Fri: $3.30 for 1st 2hrs; $0.55 for sub. 15 min",
+            "saturdays": "$3.30 for 1st 2hrs; $0.55 for sub. 15 min",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Funan",
+        "region": "South/CBD",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "$2.40 for 1st hr, $0.60 for sub 15mins",
+            "weekdays_after_5pm": "$3.20 per entry after 6pm",
+            "saturdays": "$2.60 for 1st hr, $0.65 for sub 15mins. $3.50 per entry after 6pm",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "HarbourFront Centre",
+        "region": "South/CBD",
+        "total_carpark_lots": 1000,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 for 1st hr, $0.60 for sub 30mins",
+            "weekdays_after_5pm": "$2.50 per entry after 6pm",
+            "saturdays": "$1.50 for 1st hr, $0.70 for sub 30mins. $3.00 per entry after 6pm",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Marina Bay Sands",
+        "region": "South/CBD",
+        "total_carpark_lots": 2500,
+        "pricing": {
+            "weekdays_before_5pm": "$8.00 for 1st hr, $1.50 for sub 30mins",
+            "weekdays_after_5pm": "$8.00 per entry after 7pm",
+            "saturdays": "Same as weekdays",
+            "sundays_and_ph": "Same as weekdays"
+        }
+    },
+    {
+        "mall_name": "Marina Square",
+        "region": "South/CBD",
+        "total_carpark_lots": 1000,
+        "pricing": {
+            "weekdays_before_5pm": "$2.20 for 1st 2 hrs, $1.10 for sub 30mins",
+            "weekdays_after_5pm": "$3.20 per entry after 5pm",
+            "saturdays": "$2.40 for 1st 2 hrs, $1.20 for sub 30mins. $3.20 per entry after 5pm",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Raffles City",
+        "region": "South/CBD",
+        "total_carpark_lots": 1000,
+        "pricing": {
+            "weekdays_before_5pm": "$2.60 for 1st hr, $0.65 for sub 15mins",
+            "weekdays_after_5pm": "$3.20 per entry after 6pm",
+            "saturdays": "$2.80 for 1st hr, $0.70 for sub 15mins. $3.20 per entry after 6pm",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Suntec City",
+        "region": "South/CBD",
+        "total_carpark_lots": 3000,
+        "pricing": {
+            "weekdays_before_5pm": "$2.20 for 1st hr, $1.10 for sub 30mins",
+            "weekdays_after_5pm": "$3.20 per entry after 5pm",
+            "saturdays": "$2.60 for 1st hr, $1.30 for sub 30mins. $3.20 per entry after 5pm",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "VivoCity",
+        "region": "South/CBD",
+        "total_carpark_lots": 4000,
+        "pricing": {
+            "weekdays_before_5pm": "7am to 6pm: $1.20 for 1st hr, $0.60 for next sub 30min",
+            "weekdays_after_5pm": "6pm to 4am : $2.50/hr. 4am to 7am: $3.00/entry",
+            "saturdays": "7am to 6pm: $1.40 for 1st hr, $0.70 for next sub 30min",
+            "sundays_and_ph": "6pm to 4am the following day: $3.50/entry. 4am to 7am: $2.50/hr"
+        }
+    },
+    {
+        "mall_name": "Ang Mo Kio Hub",
+        "region": "North/NE",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "$1.70 for 1st hr; $0.85 for sub \u00bd hr",
+            "weekdays_after_5pm": "Same as weekdays before 5pm",
+            "saturdays": "$1.80 for 1st hr; $0.95 for sub \u00bd hr",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Causeway Point",
+        "region": "North/NE",
+        "total_carpark_lots": 815,
+        "pricing": {
+            "weekdays_before_5pm": "6.00am-5.59am: $1.40 for 1st hr; $0.80 for sub. 30min",
+            "weekdays_after_5pm": "Same as weekdays before 5pm",
+            "saturdays": "6am-5.59am: $1.50 for 1st hr; $0.80 for sub. 30min",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "City Square Mall",
+        "region": "North/NE",
+        "total_carpark_lots": 450,
+        "pricing": {
+            "weekdays_before_5pm": "6.00am-5.59pm: $2.18 for 1st hr, $1.09 for every sub 30min",
+            "weekdays_after_5pm": "6pm-5.59am: $3.27 per entry",
+            "saturdays": "6am-5.59pm: $2.18 for 1st hr, $1.09 for every sub 30min. 6pm-5.59am: $3.82 per entry",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Compass One",
+        "region": "North/NE",
+        "total_carpark_lots": 366,
+        "pricing": {
+            "weekdays_before_5pm": "7.00am-11.00pm: $1.50 for 1st hr; $0.80 for sub 30min",
+            "weekdays_after_5pm": "Same as weekdays before 5pm",
+            "saturdays": "Same as weekdays",
+            "sundays_and_ph": "Same as weekdays"
+        }
+    },
+    {
+        "mall_name": "Hougang Mall",
+        "region": "North/NE",
+        "total_carpark_lots": 153,
+        "pricing": {
+            "weekdays_before_5pm": "6.00am-6.00pm: $1.35 for 1st hr; $0.95 sub.30min",
+            "weekdays_after_5pm": "6.00pm-6.00am: $2.25 per entry",
+            "saturdays": "6am-6pm: $1.50 for 1st hr; $1.15 sub.30min; 6pm-6am: $2.25 per entry",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Junction 8",
+        "region": "North/NE",
+        "total_carpark_lots": 303,
+        "pricing": {
+            "weekdays_before_5pm": "12.00am-5.59pm - $1.35 for 1st hr; $0.45 for sub. 15 min",
+            "weekdays_after_5pm": "6.00pm-11.59pm: $2.65 per entry",
+            "saturdays": "12.00am-5.59pm - $2.65 for 1st 2hr; $0.45 for sub. 15 min. 6.00pm-11.59pm: $2.65 per entry",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Nex",
+        "region": "North/NE",
+        "total_carpark_lots": 600,
+        "pricing": {
+            "weekdays_before_5pm": "$1.40 for 1st hr, $0.70 for sub 30mins",
+            "weekdays_after_5pm": "$2.50 per entry after 6pm",
+            "saturdays": "$1.50 for 1st hr, $0.80 for sub 30mins. $2.50 per entry after 6pm",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Northpoint City",
+        "region": "North/NE",
+        "total_carpark_lots": 1000,
+        "pricing": {
+            "weekdays_before_5pm": "$1.40 for 1st hr, $0.70 for sub 30mins",
+            "weekdays_after_5pm": "$2.50 per entry after 6pm",
+            "saturdays": "$1.50 for 1st hr, $0.80 for sub 30mins. $2.50 per entry after 6pm",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Waterway Point",
+        "region": "North/NE",
+        "total_carpark_lots": 600,
+        "pricing": {
+            "weekdays_before_5pm": "$1.40 for 1st hr, $0.70 for sub 30mins",
+            "weekdays_after_5pm": "$2.50 per entry after 6pm",
+            "saturdays": "$1.50 for 1st hr, $0.80 for sub 30mins. $2.50 per entry after 6pm",
+            "sundays_and_ph": "Same as Saturday"
+        }
+    },
+    {
+        "mall_name": "888 Plaza",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Admiralty Place",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Boon Lay Shopping Centre",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Buangkok Square",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Canberra Plaza",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Dawson Place",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Elias Mall",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Fajar Shopping Centre",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Gek Poh Shopping Centre",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Greenridge Shopping Centre",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Hougang Green Shopping Mall",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Jubilee Square",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Keat Hong Shopping Centre",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Loyang Point",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Oasis Terraces",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Pioneer Mall",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Punggol Plaza",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Rivervale Mall",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Rivervale Plaza",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Sembawang Shopping Centre",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Sunshine Place",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Taman Jurong Shopping Centre",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Vista Point",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Wisteria Mall",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Woodlands Mart",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "YewTee Point",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Heartland Mall",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Hougang 1",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Greenwich V",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Kranji Green",
+        "region": "Suburban",
+        "total_carpark_lots": 150,
+        "pricing": {
+            "weekdays_before_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
+            "saturdays": "$1.20 per hr or $0.60 per 30 mins",
+            "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "Capitol Piazza",
+        "region": "Central/Orchard",
+        "total_carpark_lots": 300,
+        "pricing": {
+            "weekdays_before_5pm": "$2.50 for 1st hr, $1.50 for sub. 30 mins",
+            "weekdays_after_5pm": "$3.00 per entry",
+            "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
+            "sundays_and_ph": "$3.00 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Cathay Cineleisure Orchard",
+        "region": "Central/Orchard",
+        "total_carpark_lots": 300,
+        "pricing": {
+            "weekdays_before_5pm": "$2.50 for 1st hr, $1.50 for sub. 30 mins",
+            "weekdays_after_5pm": "$3.00 per entry",
+            "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
+            "sundays_and_ph": "$3.00 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "The Centrepoint",
+        "region": "Central/Orchard",
+        "total_carpark_lots": 300,
+        "pricing": {
+            "weekdays_before_5pm": "$2.50 for 1st hr, $1.50 for sub. 30 mins",
+            "weekdays_after_5pm": "$3.00 per entry",
+            "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
+            "sundays_and_ph": "$3.00 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Clarke Quay Central",
+        "region": "Central/Orchard",
+        "total_carpark_lots": 300,
+        "pricing": {
+            "weekdays_before_5pm": "$2.50 for 1st hr, $1.50 for sub. 30 mins",
+            "weekdays_after_5pm": "$3.00 per entry",
+            "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
+            "sundays_and_ph": "$3.00 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Concorde Hotel",
+        "region": "Central/Orchard",
+        "total_carpark_lots": 300,
+        "pricing": {
+            "weekdays_before_5pm": "$2.50 for 1st hr, $1.50 for sub. 30 mins",
+            "weekdays_after_5pm": "$3.00 per entry",
+            "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
+            "sundays_and_ph": "$3.00 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Delfi Orchard",
+        "region": "Central/Orchard",
+        "total_carpark_lots": 300,
+        "pricing": {
+            "weekdays_before_5pm": "$2.50 for 1st hr, $1.50 for sub. 30 mins",
+            "weekdays_after_5pm": "$3.00 per entry",
+            "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
+            "sundays_and_ph": "$3.00 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Esplanade Mall",
+        "region": "Central/Orchard",
+        "total_carpark_lots": 300,
+        "pricing": {
+            "weekdays_before_5pm": "$2.50 for 1st hr, $1.50 for sub. 30 mins",
+            "weekdays_after_5pm": "$3.00 per entry",
+            "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
+            "sundays_and_ph": "$3.00 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Far East Shopping Centre",
+        "region": "Central/Orchard",
+        "total_carpark_lots": 300,
+        "pricing": {
+            "weekdays_before_5pm": "$2.50 for 1st hr, $1.50 for sub. 30 mins",
+            "weekdays_after_5pm": "$3.00 per entry",
+            "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
+            "sundays_and_ph": "$3.00 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Liat Towers",
+        "region": "Central/Orchard",
+        "total_carpark_lots": 300,
+        "pricing": {
+            "weekdays_before_5pm": "$2.50 for 1st hr, $1.50 for sub. 30 mins",
+            "weekdays_after_5pm": "$3.00 per entry",
+            "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
+            "sundays_and_ph": "$3.00 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Lucky Plaza",
+        "region": "Central/Orchard",
+        "total_carpark_lots": 300,
+        "pricing": {
+            "weekdays_before_5pm": "$2.50 for 1st hr, $1.50 for sub. 30 mins",
+            "weekdays_after_5pm": "$3.00 per entry",
+            "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
+            "sundays_and_ph": "$3.00 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Marina Bay Link Mall",
+        "region": "Central/Orchard",
+        "total_carpark_lots": 300,
+        "pricing": {
+            "weekdays_before_5pm": "$2.50 for 1st hr, $1.50 for sub. 30 mins",
+            "weekdays_after_5pm": "$3.00 per entry",
+            "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
+            "sundays_and_ph": "$3.00 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Midpoint Orchard",
+        "region": "Central/Orchard",
+        "total_carpark_lots": 300,
+        "pricing": {
+            "weekdays_before_5pm": "$2.50 for 1st hr, $1.50 for sub. 30 mins",
+            "weekdays_after_5pm": "$3.00 per entry",
+            "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
+            "sundays_and_ph": "$3.00 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Millenia Walk",
+        "region": "Central/Orchard",
+        "total_carpark_lots": 300,
+        "pricing": {
+            "weekdays_before_5pm": "$2.50 for 1st hr, $1.50 for sub. 30 mins",
+            "weekdays_after_5pm": "$3.00 per entry",
+            "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
+            "sundays_and_ph": "$3.00 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Orchard Gateway",
+        "region": "Central/Orchard",
+        "total_carpark_lots": 300,
+        "pricing": {
+            "weekdays_before_5pm": "$2.50 for 1st hr, $1.50 for sub. 30 mins",
+            "weekdays_after_5pm": "$3.00 per entry",
+            "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
+            "sundays_and_ph": "$3.00 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "OUE Downtown Gallery",
+        "region": "Central/Orchard",
+        "total_carpark_lots": 300,
+        "pricing": {
+            "weekdays_before_5pm": "$2.50 for 1st hr, $1.50 for sub. 30 mins",
+            "weekdays_after_5pm": "$3.00 per entry",
+            "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
+            "sundays_and_ph": "$3.00 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Pacific Plaza",
+        "region": "Central/Orchard",
+        "total_carpark_lots": 300,
+        "pricing": {
+            "weekdays_before_5pm": "$2.50 for 1st hr, $1.50 for sub. 30 mins",
+            "weekdays_after_5pm": "$3.00 per entry",
+            "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
+            "sundays_and_ph": "$3.00 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Palais Renaissance",
+        "region": "Central/Orchard",
+        "total_carpark_lots": 300,
+        "pricing": {
+            "weekdays_before_5pm": "$2.50 for 1st hr, $1.50 for sub. 30 mins",
+            "weekdays_after_5pm": "$3.00 per entry",
+            "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
+            "sundays_and_ph": "$3.00 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Peninsula Plaza",
+        "region": "Central/Orchard",
+        "total_carpark_lots": 300,
+        "pricing": {
+            "weekdays_before_5pm": "$2.50 for 1st hr, $1.50 for sub. 30 mins",
+            "weekdays_after_5pm": "$3.00 per entry",
+            "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
+            "sundays_and_ph": "$3.00 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Shaw House",
+        "region": "Central/Orchard",
+        "total_carpark_lots": 300,
+        "pricing": {
+            "weekdays_before_5pm": "$2.50 for 1st hr, $1.50 for sub. 30 mins",
+            "weekdays_after_5pm": "$3.00 per entry",
+            "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
+            "sundays_and_ph": "$3.00 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "The Adelphi",
+        "region": "Central/Orchard",
+        "total_carpark_lots": 300,
+        "pricing": {
+            "weekdays_before_5pm": "$2.50 for 1st hr, $1.50 for sub. 30 mins",
+            "weekdays_after_5pm": "$3.00 per entry",
+            "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
+            "sundays_and_ph": "$3.00 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "The Cathay",
+        "region": "Central/Orchard",
+        "total_carpark_lots": 300,
+        "pricing": {
+            "weekdays_before_5pm": "$2.50 for 1st hr, $1.50 for sub. 30 mins",
+            "weekdays_after_5pm": "$3.00 per entry",
+            "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
+            "sundays_and_ph": "$3.00 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "100 AM",
+        "region": "Central/Orchard",
+        "total_carpark_lots": 300,
+        "pricing": {
+            "weekdays_before_5pm": "$2.50 for 1st hr, $1.50 for sub. 30 mins",
+            "weekdays_after_5pm": "$3.00 per entry",
+            "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
+            "sundays_and_ph": "$3.00 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Chinatown Point",
+        "region": "Central/Orchard",
+        "total_carpark_lots": 300,
+        "pricing": {
+            "weekdays_before_5pm": "$2.50 for 1st hr, $1.50 for sub. 30 mins",
+            "weekdays_after_5pm": "$3.00 per entry",
+            "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
+            "sundays_and_ph": "$3.00 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Bras Basah Complex",
+        "region": "Central/Orchard",
+        "total_carpark_lots": 300,
+        "pricing": {
+            "weekdays_before_5pm": "$2.50 for 1st hr, $1.50 for sub. 30 mins",
+            "weekdays_after_5pm": "$3.00 per entry",
+            "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
+            "sundays_and_ph": "$3.00 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Mustafa Centre",
+        "region": "Central/Orchard",
+        "total_carpark_lots": 300,
+        "pricing": {
+            "weekdays_before_5pm": "$2.50 for 1st hr, $1.50 for sub. 30 mins",
+            "weekdays_after_5pm": "$3.00 per entry",
+            "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
+            "sundays_and_ph": "$3.00 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Jewel Changi Airport",
+        "region": "Various",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "$1.30 per 30 mins",
+            "weekdays_after_5pm": "$1.30 per 30 mins",
+            "saturdays": "$1.30 per 30 mins",
+            "sundays_and_ph": "$1.30 per 30 mins"
+        }
+    },
+    {
+        "mall_name": "IKEA Tampines",
+        "region": "Various",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "Free Parking",
+            "weekdays_after_5pm": "Free Parking",
+            "saturdays": "Free Parking",
+            "sundays_and_ph": "Free Parking"
+        }
+    },
+    {
+        "mall_name": "IKEA Alexandra",
+        "region": "Various",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "weekdays_after_5pm": "$2.50 per entry",
+            "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "sundays_and_ph": "$2.50 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Kinex",
+        "region": "Various",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "weekdays_after_5pm": "$2.50 per entry",
+            "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "sundays_and_ph": "$2.50 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Paya Lebar Quarter (PLQ)",
+        "region": "Various",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "weekdays_after_5pm": "$2.50 per entry",
+            "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "sundays_and_ph": "$2.50 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Paya Lebar Square",
+        "region": "Various",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "weekdays_after_5pm": "$2.50 per entry",
+            "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "sundays_and_ph": "$2.50 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "SingPost Centre",
+        "region": "Various",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "weekdays_after_5pm": "$2.50 per entry",
+            "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "sundays_and_ph": "$2.50 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Seletar Mall",
+        "region": "Various",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "weekdays_after_5pm": "$2.50 per entry",
+            "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "sundays_and_ph": "$2.50 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Thomson Plaza",
+        "region": "Various",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "weekdays_after_5pm": "$2.50 per entry",
+            "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "sundays_and_ph": "$2.50 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Tiong Bahru Plaza",
+        "region": "Various",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "weekdays_after_5pm": "$2.50 per entry",
+            "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "sundays_and_ph": "$2.50 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "United Square",
+        "region": "Various",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "weekdays_after_5pm": "$2.50 per entry",
+            "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "sundays_and_ph": "$2.50 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Velocity @ Novena Square",
+        "region": "Various",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "weekdays_after_5pm": "$2.50 per entry",
+            "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "sundays_and_ph": "$2.50 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Zhongshan Mall",
+        "region": "Various",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "weekdays_after_5pm": "$2.50 per entry",
+            "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "sundays_and_ph": "$2.50 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "321 Clementi",
+        "region": "Various",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "weekdays_after_5pm": "$2.50 per entry",
+            "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "sundays_and_ph": "$2.50 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Kallang Wave Mall",
+        "region": "Various",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "weekdays_after_5pm": "$2.50 per entry",
+            "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "sundays_and_ph": "$2.50 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Leisure Park Kallang",
+        "region": "Various",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "weekdays_after_5pm": "$2.50 per entry",
+            "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "sundays_and_ph": "$2.50 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Katong V",
+        "region": "Various",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "weekdays_after_5pm": "$2.50 per entry",
+            "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "sundays_and_ph": "$2.50 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Katong Square",
+        "region": "Various",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "weekdays_after_5pm": "$2.50 per entry",
+            "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "sundays_and_ph": "$2.50 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Katong Shopping Centre",
+        "region": "Various",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "weekdays_after_5pm": "$2.50 per entry",
+            "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "sundays_and_ph": "$2.50 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Square 2",
+        "region": "Various",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "weekdays_after_5pm": "$2.50 per entry",
+            "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "sundays_and_ph": "$2.50 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "The Poiz Centre",
+        "region": "Various",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "weekdays_after_5pm": "$2.50 per entry",
+            "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "sundays_and_ph": "$2.50 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Djitsun Mall",
+        "region": "Various",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "weekdays_after_5pm": "$2.50 per entry",
+            "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "sundays_and_ph": "$2.50 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Beauty World Centre",
+        "region": "Various",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "weekdays_after_5pm": "$2.50 per entry",
+            "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "sundays_and_ph": "$2.50 per entry or same as Saturday"
+        }
+    },
+    {
+        "mall_name": "Queensway Shopping Centre",
+        "region": "Various",
+        "total_carpark_lots": 400,
+        "pricing": {
+            "weekdays_before_5pm": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "weekdays_after_5pm": "$2.50 per entry",
+            "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
+            "sundays_and_ph": "$2.50 per entry or same as Saturday"
+        }
+    }
+]
