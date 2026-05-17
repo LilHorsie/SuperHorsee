@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SG Parking Hub</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -24,14 +23,15 @@
         <div class="tabs">
             <button class="tab-btn active" data-target="hdb-section">HDB Availability</button>
             <button class="tab-btn" data-target="mall-section">Mall Rates</button>
-            <button class="tab-btn" data-target="map-section" id="mapTabBtn">Live Map Density</button>
         </div>
 
-        <section class="search-container" id="globalSearchContainer">
+        <section class="search-container">
             <input type="text" id="searchInput" placeholder="Search by name, carpark number, or address..." aria-label="Search">
             <button class="btn-clear" id="clearBtn">Clear</button>
         </section>
 
+        <div id="loadingMessage" class="status-message info">Loading real-time data...</div>
+        <div id="errorMessage" class="status-message error hidden"></div>
         <div id="noResults" class="status-message warning hidden">No results found matching your search.</div>
 
         <section id="hdb-section" class="tab-content active">
@@ -66,27 +66,8 @@
                 </table>
             </div>
         </section>
-
-        <section id="map-section" class="tab-content">
-            <div class="map-controls">
-                <div class="control-group">
-                    <label for="mapFilter">Show Carparks With:</label>
-                    <select id="mapFilter">
-                        <option value="all">All Carparks</option>
-                        <option value="available">Ample Parking (>20 lots)</option>
-                        <option value="filling">Filling Fast (<20 lots)</option>
-                        <option value="full">Completely Full (0 lots)</option>
-                    </select>
-                </div>
-            </div>
-            <div id="map"></div>
-        </section>
     </main>
 
-    <div id="toastContainer" class="toast-container"></div>
-    <button id="backToTop" class="floating-fab hidden" aria-label="Back to top">⬆️</button>
-
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>
