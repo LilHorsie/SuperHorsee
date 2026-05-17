@@ -223,21 +223,30 @@ function plotDensityMarkers() {
 }
 
 async function initApp() {
-    showToast("🔄 Loading real-time data...");
+    showToast("🔄 Testing data connections...");
     try {
-        const [hdbInfoRes, hdbLiveRes, mallRes] = await Promise.all([
-            fetch(API.HDB_STATIC),
-            fetch(API.HDB_LIVE),
-            fetch(API.MALL_STATIC)
-        ]);
 
-        if (!hdbInfoRes.ok || !hdbLiveRes.ok || !mallRes.ok) throw new Error("Fetch failed");
-
+        const hdbInfoRes = await fetch(API.HDB_STATIC);
+        if (!hdbInfoRes.ok) throw new Error(`HDB Map Data Error: ${hdbInfoRes.status} (Check your GitHub raw link)`);
         const hdbInfo = await hdbInfoRes.json();
-        const hdbLive = await hdbLiveRes.json();
+
+
+        const mallRes = await fetch(API.MALL_STATIC);
+        if (!mallRes.ok) throw new Error(`Mall Data Error: ${mallRes.status} (Check your GitHub raw link)`);
         const mallDataRaw = await mallRes.json();
+
+
+        const hdbLiveRes = await fetch(API.HDB_LIVE);
+        if (!hdbLiveRes.ok) throw new Error(`Live API Error: ${hdbLiveRes.status} (Data.gov.sg might be down)`);
+        const hdbLive = await hdbLiveRes.json();
+
+  
+        if (!hdbLive.items || hdbLive.items.length === 0) {
+            throw new Error("Live API connected, but returned empty data.");
+        }
         const liveAvailability = hdbLive.items[0].carpark_data;
 
+  
         appState.hdbData = hdbInfo.map(carpark => {
             const number = carpark.car_park_no.trim();
             const match = liveAvailability.find(a => a.carpark_number.trim() === number);
@@ -266,11 +275,11 @@ async function initApp() {
         }));
 
         renderCurrentTab();
-        showToast("✅ Live data updated successfully!");
+        showToast("✅ All systems go! Data loaded.");
 
     } catch (error) {
         console.error(error);
-        showToast("❌ Failed to load live data.");
+        showToast(`❌ ${error.message}`);
     }
 }
 
