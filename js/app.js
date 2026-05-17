@@ -19,16 +19,46 @@ const elements = {
     contents: document.querySelectorAll('.tab-content'),
     searchInput: document.getElementById('searchInput'),
     clearBtn: document.getElementById('clearBtn'),
-    loadingMsg: document.getElementById('loadingMessage'),
-    errorMsg: document.getElementById('errorMessage'),
     noResultsMsg: document.getElementById('noResults'),
     hdbBody: document.getElementById('hdbTableBody'),
     mallBody: document.getElementById('mallTableBody'),
     themeToggle: document.getElementById('themeToggle'),
-    sortHdb: document.getElementById('sortHdb')
+    sortHdb: document.getElementById('sortHdb'),
+    toastContainer: document.getElementById('toastContainer'),
+    backToTop: document.getElementById('backToTop')
 };
 
 const cleanText = (text) => text.toLowerCase().replace(/[^a-z0-9]/g, " ").replace(/\s+/g, " ").trim();
+
+function showToast(message) {
+    const toast = document.createElement('div');
+    toast.className = 'toast';
+    toast.textContent = message;
+    elements.toastContainer.appendChild(toast);
+
+    setTimeout(() => {
+        toast.classList.add('fade-out');
+        toast.addEventListener('animationend', () => toast.remove());
+    }, 2500);
+}
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+        elements.backToTop.classList.remove('hidden');
+    } else {
+        elements.backToTop.classList.add('hidden');
+    }
+});
+
+elements.backToTop.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+function copyToClipboard(text) {
+    navigator.clipboard.writeText(text).then(() => {
+        showToast(`📋 Copied: ${text}`);
+    });
+}
 
 function getAvailabilityBadge(availableLots) {
     if (availableLots === "N/A") return `<span class="badge badge-gray">N/A</span>`;
@@ -39,6 +69,7 @@ function getAvailabilityBadge(availableLots) {
 }
 
 async function initApp() {
+    showToast("🔄 Loading real-time data...");
     try {
         const [hdbInfoRes, hdbLiveRes, mallRes] = await Promise.all([
             fetch(API.HDB_STATIC),
@@ -46,12 +77,11 @@ async function initApp() {
             fetch(API.MALL_STATIC)
         ]);
 
-        if (!hdbInfoRes.ok || !hdbLiveRes.ok || !mallRes.ok) throw new Error("Data fetch failed");
+        if (!hdbInfoRes.ok || !hdbLiveRes.ok || !mallRes.ok) throw new Error("Fetch failed");
 
         const hdbInfo = await hdbInfoRes.json();
         const hdbLive = await hdbLiveRes.json();
         const mallDataRaw = await mallRes.json();
-        
         const liveAvailability = hdbLive.items[0].carpark_data;
 
         appState.hdbData = hdbInfo.map(carpark => {
@@ -73,14 +103,12 @@ async function initApp() {
             searchStr: cleanText(mall.mall_name)
         }));
 
-        elements.loadingMsg.classList.add('hidden');
         renderCurrentTab();
+        showToast("✅ Live data updated successfully!");
 
     } catch (error) {
         console.error(error);
-        elements.loadingMsg.classList.add('hidden');
-        elements.errorMsg.textContent = "Failed to load application data. Please try again later.";
-        elements.errorMsg.classList.remove('hidden');
+        showToast("❌ Failed to load live data.");
     }
 }
 
@@ -93,17 +121,17 @@ elements.themeToggle.addEventListener('click', () => {
 elements.sortHdb.addEventListener('click', () => {
     appState.hdbSortDesc = !appState.hdbSortDesc;
     renderCurrentTab();
+    showToast(`↕️ Sorted by ${appState.hdbSortDesc ? 'Highest' : 'Lowest'} Availability`);
 });
 
 elements.tabs.forEach(tab => {
     tab.addEventListener('click', () => {
         elements.tabs.forEach(t => t.classList.remove('active'));
         tab.classList.add('active');
-
         elements.contents.forEach(c => c.classList.remove('active'));
+        
         const targetId = tab.getAttribute('data-target');
         document.getElementById(targetId).classList.add('active');
-
         appState.currentTab = targetId;
         elements.searchInput.value = ""; 
         appState.searchQuery = "";
@@ -117,7 +145,6 @@ function renderCurrentTab() {
 
     if (appState.currentTab === 'hdb-section') {
         let filtered = appState.hdbData.filter(item => item.searchStr.includes(query));
-        
         filtered.sort((a, b) => {
             const valA = a.available === "N/A" ? -1 : parseInt(a.available);
             const valB = b.available === "N/A" ? -1 : parseInt(b.available);
@@ -128,7 +155,7 @@ function renderCurrentTab() {
         const displayData = query ? filtered : filtered.slice(0, 100); 
         
         elements.hdbBody.innerHTML = displayData.map(h => `
-            <tr>
+            <tr onclick="copyToClipboard('${h.address}')" title="Click to copy address">
                 <td><strong>${h.number}</strong></td>
                 <td>${h.address}</td>
                 <td>${h.total}</td>
@@ -141,7 +168,7 @@ function renderCurrentTab() {
         hasResults = filtered.length > 0;
 
         elements.mallBody.innerHTML = filtered.map(m => `
-            <tr>
+            <tr onclick="copyToClipboard('${m.mall_name}')" title="Click to copy mall name">
                 <td><strong>${m.mall_name}</strong></td>
                 <td>${m.total_carpark_lots || 'N/A'}</td>
                 <td>${m.pricing.weekdays_before_5pm}</td>
