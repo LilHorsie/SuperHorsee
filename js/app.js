@@ -9,9 +9,9 @@ const appState = {
 };
 
 const API = {
-    HDB_STATIC: "data/HDBCarparkInformation.json",
-    HDB_LIVE: "https://api.data.gov.sg/v1/transport/carpark-availability",
-    MALL_STATIC: "data/all_singapore_shopping_malls_carpark.json"
+    HDB_STATIC: "https://raw.githubusercontent.com/lilhorsie/SuperHorsee/main/data/HDBCarparkInformation.json",
+    MALL_STATIC: "https://raw.githubusercontent.com/lilhorsie/SuperHorsee/main/data/all_singapore_shopping_malls_carpark.json",
+    HDB_LIVE: "https://api.data.gov.sg/v1/transport/carpark-availability"
 };
 
 const elements = {
