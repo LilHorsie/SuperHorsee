@@ -313,10 +313,12 @@ elements.tabs.forEach(tab => {
         if (targetId === 'map-section') {
             elements.globalSearchContainer.classList.add('hidden');
             initMapEngine();
+ 
             setTimeout(() => {
                 appState.map.invalidateSize();
                 plotDensityMarkers();
-            }, 100);
+            }, 450); 
+            
         } else {
             elements.globalSearchContainer.classList.remove('hidden');
             elements.searchInput.value = ""; 
