@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SG Parking Hub</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -19,56 +20,62 @@
         </div>
     </header>
 
-    <main class="container">
-        <div class="tabs">
-            <button class="tab-btn active" data-target="hdb-section">HDB Availability</button>
-            <button class="tab-btn" data-target="mall-section">Mall Rates</button>
-        </div>
-
-        <section class="search-container">
-            <input type="text" id="searchInput" placeholder="Search by name, carpark number, or address..." aria-label="Search">
-            <button class="btn-clear" id="clearBtn">Clear</button>
-        </section>
-
-        <div id="noResults" class="status-message warning hidden">No results found matching your search.</div>
-
-        <section id="hdb-section" class="tab-content active">
-            <div class="table-wrapper">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Carpark No.</th>
-                            <th>Address</th>
-                            <th>Total Lots</th>
-                            <th class="sortable" id="sortHdb">Available Lots ↕</th>
-                        </tr>
-                    </thead>
-                    <tbody id="hdbTableBody"></tbody>
-                </table>
+    <div class="split-layout">
+        
+        <main class="left-panel">
+            <div class="tabs">
+                <button class="tab-btn active" data-target="hdb-section">HDB Availability</button>
+                <button class="tab-btn" data-target="mall-section">Mall Rates</button>
             </div>
-        </section>
 
-        <section id="mall-section" class="tab-content">
-            <div class="table-wrapper">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Mall Name</th>
-                            <th>Total Lots</th>
-                            <th>Weekday (Before 5PM)</th>
-                            <th>Weekday (After 5PM)</th>
-                            <th>Weekends & PH</th>
-                        </tr>
-                    </thead>
-                    <tbody id="mallTableBody"></tbody>
-                </table>
-            </div>
-        </section>
-    </main>
+            <section class="search-container">
+                <input type="text" id="searchInput" placeholder="Search by name, carpark number, or address..." aria-label="Search">
+                <button class="btn-near-me" id="nearMeBtn">📍 Near Me</button>
+                <button class="btn-clear" id="clearBtn">Clear</button>
+            </section>
+
+            <div id="noResults" class="status-message warning hidden">No results found matching your search.</div>
+
+            <section id="hdb-section" class="tab-content active">
+                <div class="hdb-controls" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                    <div class="refresh-status">
+                        <button id="refreshBtn" class="btn-refresh" title="Refresh Live Data">🔄</button>
+                        <span id="lastUpdatedText" class="text-muted" style="font-size: 0.85rem; margin-left: 10px;">Last updated: Loading...</span>
+                    </div>
+                    <button class="sort-btn" id="sortHdb" style="font-size: 0.9rem; padding: 6px 15px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: var(--text-main); cursor: pointer;">Sort by Lots ↕</button>
+                </div>
+                
+                <div class="carpark-grid" id="hdbGridBody"></div>
+            </section>
+
+            <section id="mall-section" class="tab-content">
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Mall Name</th>
+                                <th>Total Lots</th>
+                                <th>Weekday (< 5PM)</th>
+                                <th>Weekday (> 5PM)</th>
+                                <th>Weekends & PH</th>
+                            </tr>
+                        </thead>
+                        <tbody id="mallTableBody"></tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+
+        <aside class="right-panel">
+            <div id="map"></div>
+        </aside>
+
+    </div>
 
     <div id="toastContainer" class="toast-container"></div>
-    <button id="backToTop" class="floating-fab hidden" aria-label="Back to top">⬆️</button>
 
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.9.0/proj4.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>

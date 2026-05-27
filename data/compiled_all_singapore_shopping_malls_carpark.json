@@ -8,7 +8,11 @@
             "weekdays_after_5pm": "6.30pm-9.59pm: Free Parking; 10pm-11.59pm: $2.55 per entry",
             "saturdays": "12.00am to 11.59pm: Free first 1 hour; $2.55 for subsequent hours; Max cap: $20",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.3097,
+        "longitude": 103.8641,
+        "x_coord": 31425.68,
+        "y_coord": 32445.51
     },
     {
         "mall_name": "Bedok Mall",
@@ -19,7 +23,11 @@
             "weekdays_after_5pm": "6pm-11.59pm: $2.60 per entry",
             "saturdays": "Same as weekdays",
             "sundays_and_ph": "Same as weekdays"
-        }
+        },
+        "latitude": 1.3247,
+        "longitude": 103.9294,
+        "x_coord": 38692.9,
+        "y_coord": 34104.32
     },
     {
         "mall_name": "Century Square",
@@ -30,7 +38,11 @@
             "weekdays_after_5pm": "6.01pm-5.59am: $2.60 per entry",
             "saturdays": "6.00am-5.59pm: $1.60 for 1st hr; $0.70 every 30min; 6.01pm-5.59am: $2.60 per entry",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.3524,
+        "longitude": 103.9438,
+        "x_coord": 40295.34,
+        "y_coord": 37167.32
     },
     {
         "mall_name": "Changi City Point",
@@ -41,7 +53,11 @@
             "weekdays_after_5pm": "6.01pm-6.00am: $2.70 per entry",
             "saturdays": "6.01am-6.00pm: $2.70 for 1st 2hr; $1.30 for sub. 30min; 6.01pm-6.00am: $2.70 per entry",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.334,
+        "longitude": 103.9629,
+        "x_coord": 42421.07,
+        "y_coord": 35132.84
     },
     {
         "mall_name": "City Plaza",
@@ -52,7 +68,11 @@
             "weekdays_after_5pm": "5.00pm-8.00am the following day: $1.50 per entry",
             "saturdays": "Same as weekdays",
             "sundays_and_ph": "8am-8am the following day: $1.50 per entry"
-        }
+        },
+        "latitude": 1.3168,
+        "longitude": 103.8904,
+        "x_coord": 34352.61,
+        "y_coord": 33230.64
     },
     {
         "mall_name": "Downtown East",
@@ -63,7 +83,11 @@
             "weekdays_after_5pm": "5.00pm-12.00am: $2.40 per entry. Max/day:$15",
             "saturdays": "$0.028 per min; 5.00pm-12.00am: $3.40 per entry. Max/day: $19.",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.3778,
+        "longitude": 103.9548,
+        "x_coord": 41519.38,
+        "y_coord": 39975.98
     },
     {
         "mall_name": "Eastpoint Mall",
@@ -74,7 +98,11 @@
             "weekdays_after_5pm": "Same as weekdays before 5pm",
             "saturdays": "Same as weekdays before 5pm",
             "sundays_and_ph": "Same as weekdays before 5pm"
-        }
+        },
+        "latitude": 1.3426,
+        "longitude": 103.9531,
+        "x_coord": 41330.38,
+        "y_coord": 36083.73
     },
     {
         "mall_name": "I12 Katong",
@@ -85,7 +113,11 @@
             "weekdays_after_5pm": "Same as weekdays before 5pm",
             "saturdays": "Same as weekdays before 5pm",
             "sundays_and_ph": "Same as weekdays before 5pm"
-        }
+        },
+        "latitude": 1.3051,
+        "longitude": 103.9051,
+        "x_coord": 35988.61,
+        "y_coord": 31936.96
     },
     {
         "mall_name": "Parkway Parade",
@@ -96,7 +128,11 @@
             "weekdays_after_5pm": "Same as weekdays before 5pm",
             "saturdays": "$1.60 for 1st hr, $0.90 for sub 30mins",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.3013,
+        "longitude": 103.9048,
+        "x_coord": 35955.24,
+        "y_coord": 31516.77
     },
     {
         "mall_name": "Tampines Mall",
@@ -107,7 +143,11 @@
             "weekdays_after_5pm": "6.00pm-5.59am: $2.60 per entry",
             "saturdays": "$1.60 for 1st hr; $0.70 every 30min; 6.00pm-5.59am: $2.60 per entry",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.3526,
+        "longitude": 103.9443,
+        "x_coord": 40350.98,
+        "y_coord": 37189.43
     },
     {
         "mall_name": "Tampines 1",
@@ -118,7 +158,11 @@
             "weekdays_after_5pm": "6.00pm-5.59am: $2.60 per entry",
             "saturdays": "$1.60 for 1st hr; $0.70 every 30min; 6.00pm-5.59am: $2.60 per entry",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.3538,
+        "longitude": 103.9446,
+        "x_coord": 40384.36,
+        "y_coord": 37322.13
     },
     {
         "mall_name": "White Sands",
@@ -129,7 +173,11 @@
             "weekdays_after_5pm": "$2.50 per entry after 6pm",
             "saturdays": "$1.50 for 1st hr, $0.65 for sub 30mins. $2.50 per entry after 6pm",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.3725,
+        "longitude": 103.9495,
+        "x_coord": 40929.58,
+        "y_coord": 39389.91
     },
     {
         "mall_name": "Anchorpoint Shopping Centre",
@@ -140,7 +188,11 @@
             "weekdays_after_5pm": "After 6.00pm: $2.98 per entry",
             "saturdays": "Same as weekdays",
             "sundays_and_ph": "Same as weekdays"
-        }
+        },
+        "latitude": 1.2889,
+        "longitude": 103.8056,
+        "x_coord": 24915.16,
+        "y_coord": 30145.55
     },
     {
         "mall_name": "Alexandra Retail Centre",
@@ -151,7 +203,11 @@
             "weekdays_after_5pm": "6.30pm-10.00pm: Free; 10.00pm-7.00am: $2.70/hr",
             "saturdays": "7.00am-10.00pm: Free; 10.00pm-7.00am: $2.70/hr",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.2738,
+        "longitude": 103.8014,
+        "x_coord": 24447.71,
+        "y_coord": 28475.87
     },
     {
         "mall_name": "Bukit Panjang Plaza",
@@ -162,7 +218,11 @@
             "weekdays_after_5pm": "6.00pm-11.59pm: $2.75 per entry",
             "saturdays": "12.00am-5.59pm: $2.75 for 1st 2 hrs; $0.45 for sub. 15 min; 6.00pm-11.59pm: $2.75 per entry",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.3799,
+        "longitude": 103.7643,
+        "x_coord": 20319.1,
+        "y_coord": 40207.96
     },
     {
         "mall_name": "Bukit Timah Plaza",
@@ -173,7 +233,11 @@
             "weekdays_after_5pm": "5.01pm-7.29am: $2.85 per entry",
             "saturdays": "7.30am-5.00pm: $1.80 per hr; 5.01pm-7.29.00am: $2.85 per entry",
             "sundays_and_ph": "7.30am-5.00pm: $2.85 for first 3 hours; $1.65 for sub. 1 hour; 5.01pm-7.29am: $2.85 per entry"
-        }
+        },
+        "latitude": 1.3392,
+        "longitude": 103.7788,
+        "x_coord": 21932.67,
+        "y_coord": 35707.52
     },
     {
         "mall_name": "Bukit Timah Shopping Centre",
@@ -184,7 +248,11 @@
             "weekdays_after_5pm": "5.01pm-7.00am: $3.64 per entry",
             "saturdays": "Same as weekdays",
             "sundays_and_ph": "Same as weekdays"
-        }
+        },
+        "latitude": 1.3435,
+        "longitude": 103.7765,
+        "x_coord": 21676.71,
+        "y_coord": 36182.99
     },
     {
         "mall_name": "Coronation Shopping Plaza",
@@ -195,7 +263,11 @@
             "weekdays_after_5pm": "Daily: $2.30 per hr",
             "saturdays": "Same as weekdays",
             "sundays_and_ph": "Same as weekdays"
-        }
+        },
+        "latitude": 1.3228,
+        "longitude": 103.8093,
+        "x_coord": 25326.97,
+        "y_coord": 33894.03
     },
     {
         "mall_name": "Clementi Mall",
@@ -206,7 +278,11 @@
             "weekdays_after_5pm": "Same as weekdays before 5pm",
             "saturdays": "Same as weekdays before 5pm",
             "sundays_and_ph": "Same as weekdays before 5pm"
-        }
+        },
+        "latitude": 1.3156,
+        "longitude": 103.7646,
+        "x_coord": 20352.28,
+        "y_coord": 33097.99
     },
     {
         "mall_name": "Hillion Mall",
@@ -217,7 +293,11 @@
             "weekdays_after_5pm": "Same as weekdays before 5pm",
             "saturdays": "$2.00 for 1st hr, $0.50 for sub 15mins",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.3784,
+        "longitude": 103.7628,
+        "x_coord": 20152.16,
+        "y_coord": 40042.1
     },
     {
         "mall_name": "hillV2",
@@ -228,7 +308,11 @@
             "weekdays_after_5pm": "Daily: $1.53 for 1st hr; $0.92 for every sub. 30min",
             "saturdays": "Same as weekdays",
             "sundays_and_ph": "Same as weekdays"
-        }
+        },
+        "latitude": 1.3636,
+        "longitude": 103.7642,
+        "x_coord": 20307.92,
+        "y_coord": 38405.59
     },
     {
         "mall_name": "Holland Road Shopping Centre",
@@ -239,7 +323,11 @@
             "weekdays_after_5pm": "9.00pm-12.00am: $5.00 per entry",
             "saturdays": "12.00am-9.00pm: $2.40 per 30min; 9.00pm-12.00am: $6.00 per entry.",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.3103,
+        "longitude": 103.7954,
+        "x_coord": 23780.02,
+        "y_coord": 32511.87
     },
     {
         "mall_name": "IMM",
@@ -250,7 +338,11 @@
             "weekdays_after_5pm": "Standard rates apply after 1st hour",
             "saturdays": "Free parking daily for 1st hour",
             "sundays_and_ph": "Free parking daily for 1st hour"
-        }
+        },
+        "latitude": 1.3349,
+        "longitude": 103.7469,
+        "x_coord": 18382.52,
+        "y_coord": 35232.15
     },
     {
         "mall_name": "Jem",
@@ -261,7 +353,11 @@
             "weekdays_after_5pm": "$2.50 per entry after 6pm",
             "saturdays": "$1.50 for 1st hr, $0.70 for sub 30mins. $2.50 per entry after 6pm",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.3331,
+        "longitude": 103.7434,
+        "x_coord": 17993.0,
+        "y_coord": 35033.12
     },
     {
         "mall_name": "Jurong Point",
@@ -272,7 +368,11 @@
             "weekdays_after_5pm": "Same as weekdays before 5pm",
             "saturdays": "$1.50 for 1st 2 hrs, $0.80 for sub 30mins",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.3395,
+        "longitude": 103.7067,
+        "x_coord": 13908.7,
+        "y_coord": 35740.98
     },
     {
         "mall_name": "Lot One",
@@ -283,7 +383,11 @@
             "weekdays_after_5pm": "$2.50 per entry after 6pm",
             "saturdays": "$1.40 for 1st hr, $0.45 for sub 15mins. $2.50 per entry after 6pm",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.3851,
+        "longitude": 103.7452,
+        "x_coord": 18193.53,
+        "y_coord": 40783.02
     },
     {
         "mall_name": "The Star Vista",
@@ -294,7 +398,11 @@
             "weekdays_after_5pm": "Same as weekdays before 5pm",
             "saturdays": "Same as weekdays before 5pm",
             "sundays_and_ph": "Midnight to 11.59pm: $2.14 for 1st hr, $1.07 for next sub 30min"
-        }
+        },
+        "latitude": 1.308,
+        "longitude": 103.7884,
+        "x_coord": 23000.98,
+        "y_coord": 32257.56
     },
     {
         "mall_name": "Westgate",
@@ -305,7 +413,11 @@
             "weekdays_after_5pm": "$2.50 per entry after 6pm",
             "saturdays": "$1.50 for 1st hr, $0.70 for sub 30mins. $2.50 per entry after 6pm",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.3336,
+        "longitude": 103.7423,
+        "x_coord": 17870.58,
+        "y_coord": 35088.42
     },
     {
         "mall_name": "West Mall",
@@ -316,7 +428,11 @@
             "weekdays_after_5pm": "$2.00 per entry after 6pm",
             "saturdays": "$1.50 for 1st hr, $0.70 for sub 30mins. $2.50 per entry after 6pm",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.3497,
+        "longitude": 103.7497,
+        "x_coord": 18694.18,
+        "y_coord": 36868.64
     },
     {
         "mall_name": "313@Somerset",
@@ -327,7 +443,11 @@
             "weekdays_after_5pm": "Same as weekdays before 5pm",
             "saturdays": "7.00am-7.00am: $3.27 for 1st hr; $1.64 for sub. 30min",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.3014,
+        "longitude": 103.8377,
+        "x_coord": 28487.61,
+        "y_coord": 31527.72
     },
     {
         "mall_name": "Far East Plaza",
@@ -338,7 +458,11 @@
             "weekdays_after_5pm": "$3.50 per entry after 5pm",
             "saturdays": "$1.80 for 1st hr, $0.60 for sub 15mins. $4.00 per entry after 5pm",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.3073,
+        "longitude": 103.8339,
+        "x_coord": 28064.71,
+        "y_coord": 32180.11
     },
     {
         "mall_name": "Forum The Shopping Mall",
@@ -349,7 +473,11 @@
             "weekdays_after_5pm": "$3.20 per entry after 5pm",
             "saturdays": "Same as weekdays",
             "sundays_and_ph": "Same as weekdays"
-        }
+        },
+        "latitude": 1.3061,
+        "longitude": 103.8287,
+        "x_coord": 27485.99,
+        "y_coord": 32047.42
     },
     {
         "mall_name": "Great World",
@@ -360,7 +488,11 @@
             "weekdays_after_5pm": "$3.00 per entry after 6pm",
             "saturdays": "$1.60 for 1st hr, $0.60 for sub 30mins. $3.50 per entry after 6pm",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.2932,
+        "longitude": 103.8319,
+        "x_coord": 27842.12,
+        "y_coord": 30621.0
     },
     {
         "mall_name": "ION Orchard",
@@ -371,7 +503,11 @@
             "weekdays_after_5pm": "5.00pm-11.59pm: $3.05 per entry; 12.00am-7.59am: $1.09 per hr",
             "saturdays": "8.00am-5.59pm: $2.62 for 1st hr; $1.91 for sub. 30min; 6pm-11.59pm: $3.82 per entry",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.304,
+        "longitude": 103.8319,
+        "x_coord": 27842.13,
+        "y_coord": 31815.21
     },
     {
         "mall_name": "Ngee Ann City",
@@ -382,7 +518,11 @@
             "weekdays_after_5pm": "$3.60 per entry after 5pm",
             "saturdays": "Same as weekdays",
             "sundays_and_ph": "$4.00 per entry for 1st 4 hrs, $1.28 for sub 30mins"
-        }
+        },
+        "latitude": 1.3028,
+        "longitude": 103.8349,
+        "x_coord": 28176.0,
+        "y_coord": 31682.52
     },
     {
         "mall_name": "Orchard Central",
@@ -393,7 +533,11 @@
             "weekdays_after_5pm": "$4.00 per entry after 6pm",
             "saturdays": "Same as weekdays",
             "sundays_and_ph": "Same as weekdays"
-        }
+        },
+        "latitude": 1.3009,
+        "longitude": 103.8398,
+        "x_coord": 28721.32,
+        "y_coord": 31472.43
     },
     {
         "mall_name": "Paragon",
@@ -404,7 +548,11 @@
             "weekdays_after_5pm": "$4.50 per entry after 5pm",
             "saturdays": "$3.20 for 1st hr, $1.60 for sub 30mins. $4.50 per entry after 5pm",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.3039,
+        "longitude": 103.8361,
+        "x_coord": 28309.55,
+        "y_coord": 31804.16
     },
     {
         "mall_name": "Plaza Singapura",
@@ -415,7 +563,11 @@
             "weekdays_after_5pm": "6pm-11.59pm: $3 per entry",
             "saturdays": "Fri/Sat & Eve of PH: $1.60 for 1st hr; $0.50 for sub. 15mins. 6pm-2.59am: $3 per entry",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.3013,
+        "longitude": 103.8454,
+        "x_coord": 29344.55,
+        "y_coord": 31516.66
     },
     {
         "mall_name": "Tanglin Mall",
@@ -426,7 +578,11 @@
             "weekdays_after_5pm": "1701\u20130600: 1st Hour: $2.44. Every 30 Mins: $1.22. (max cap $3.56/entry)",
             "saturdays": "0601\u20131300: 1st Hr: $2.44. Sub 30 Mins: $1.22. 1301\u20130600: Max cap $3.56/entry",
             "sundays_and_ph": "Whole Day. 1st Hour: $2.44. Every 30 Mins: $1.22. (max cap $3.56/entry)"
-        }
+        },
+        "latitude": 1.3049,
+        "longitude": 103.8236,
+        "x_coord": 26918.41,
+        "y_coord": 31914.73
     },
     {
         "mall_name": "Wisma Atria",
@@ -437,7 +593,11 @@
             "weekdays_after_5pm": "$3.50 per entry after 5pm",
             "saturdays": "$2.80 for 1st hr, $1.40 for sub 30mins. $3.50 per entry after 5pm",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.3037,
+        "longitude": 103.8335,
+        "x_coord": 28020.19,
+        "y_coord": 31782.04
     },
     {
         "mall_name": "Bugis Junction",
@@ -448,7 +608,11 @@
             "weekdays_after_5pm": "6.00pm-11.59pm: Mon-Thu: $3.30 per entry. Fri: $3.30 for 1st 2 hrs; $0.65 for sub. 15 min",
             "saturdays": "$3.30 for 1st 2 hrs; $0.65 for sub. 15 min",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.3001,
+        "longitude": 103.8562,
+        "x_coord": 30546.5,
+        "y_coord": 31383.98
     },
     {
         "mall_name": "Bugis+",
@@ -459,7 +623,11 @@
             "weekdays_after_5pm": "6.00pm-11.59pm: Mon-Thu: $3.30 per entry; Fri: $3.30 for 1st 2hrs; $0.55 for sub. 15 min",
             "saturdays": "$3.30 for 1st 2hrs; $0.55 for sub. 15 min",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.3008,
+        "longitude": 103.8552,
+        "x_coord": 30435.21,
+        "y_coord": 31461.38
     },
     {
         "mall_name": "Funan",
@@ -470,7 +638,11 @@
             "weekdays_after_5pm": "$3.20 per entry after 6pm",
             "saturdays": "$2.60 for 1st hr, $0.65 for sub 15mins. $3.50 per entry after 6pm",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.2913,
+        "longitude": 103.8501,
+        "x_coord": 29867.63,
+        "y_coord": 30410.92
     },
     {
         "mall_name": "HarbourFront Centre",
@@ -481,7 +653,11 @@
             "weekdays_after_5pm": "$2.50 per entry after 6pm",
             "saturdays": "$1.50 for 1st hr, $0.70 for sub 30mins. $3.00 per entry after 6pm",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.2638,
+        "longitude": 103.8202,
+        "x_coord": 26540.0,
+        "y_coord": 27370.11
     },
     {
         "mall_name": "Marina Bay Sands",
@@ -492,7 +668,11 @@
             "weekdays_after_5pm": "$8.00 per entry after 7pm",
             "saturdays": "Same as weekdays",
             "sundays_and_ph": "Same as weekdays"
-        }
+        },
+        "latitude": 1.2835,
+        "longitude": 103.8596,
+        "x_coord": 30924.91,
+        "y_coord": 29548.44
     },
     {
         "mall_name": "Marina Square",
@@ -503,7 +683,11 @@
             "weekdays_after_5pm": "$3.20 per entry after 5pm",
             "saturdays": "$2.40 for 1st 2 hrs, $1.20 for sub 30mins. $3.20 per entry after 5pm",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.2914,
+        "longitude": 103.8576,
+        "x_coord": 30702.31,
+        "y_coord": 30421.98
     },
     {
         "mall_name": "Raffles City",
@@ -514,7 +698,11 @@
             "weekdays_after_5pm": "$3.20 per entry after 6pm",
             "saturdays": "$2.80 for 1st hr, $0.70 for sub 15mins. $3.20 per entry after 6pm",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.2936,
+        "longitude": 103.8529,
+        "x_coord": 30179.24,
+        "y_coord": 30665.24
     },
     {
         "mall_name": "Suntec City",
@@ -525,7 +713,11 @@
             "weekdays_after_5pm": "$3.20 per entry after 5pm",
             "saturdays": "$2.60 for 1st hr, $1.30 for sub 30mins. $3.20 per entry after 5pm",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.2941,
+        "longitude": 103.8585,
+        "x_coord": 30802.47,
+        "y_coord": 30720.54
     },
     {
         "mall_name": "VivoCity",
@@ -536,7 +728,11 @@
             "weekdays_after_5pm": "6pm to 4am : $2.50/hr. 4am to 7am: $3.00/entry",
             "saturdays": "7am to 6pm: $1.40 for 1st hr, $0.70 for next sub 30min",
             "sundays_and_ph": "6pm to 4am the following day: $3.50/entry. 4am to 7am: $2.50/hr"
-        }
+        },
+        "latitude": 1.2644,
+        "longitude": 103.8223,
+        "x_coord": 26773.71,
+        "y_coord": 27436.45
     },
     {
         "mall_name": "Ang Mo Kio Hub",
@@ -547,7 +743,11 @@
             "weekdays_after_5pm": "Same as weekdays before 5pm",
             "saturdays": "$1.80 for 1st hr; $0.95 for sub \u00bd hr",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.3692,
+        "longitude": 103.8485,
+        "x_coord": 29689.51,
+        "y_coord": 39024.7
     },
     {
         "mall_name": "Causeway Point",
@@ -558,7 +758,11 @@
             "weekdays_after_5pm": "Same as weekdays before 5pm",
             "saturdays": "6am-5.59am: $1.50 for 1st hr; $0.80 for sub. 30min",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.4361,
+        "longitude": 103.786,
+        "x_coord": 22734.16,
+        "y_coord": 46422.21
     },
     {
         "mall_name": "City Square Mall",
@@ -569,7 +773,11 @@
             "weekdays_after_5pm": "6pm-5.59am: $3.27 per entry",
             "saturdays": "6am-5.59pm: $2.18 for 1st hr, $1.09 for every sub 30min. 6pm-5.59am: $3.82 per entry",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.3115,
+        "longitude": 103.8568,
+        "x_coord": 30613.26,
+        "y_coord": 32644.54
     },
     {
         "mall_name": "Compass One",
@@ -580,7 +788,11 @@
             "weekdays_after_5pm": "Same as weekdays before 5pm",
             "saturdays": "Same as weekdays",
             "sundays_and_ph": "Same as weekdays"
-        }
+        },
+        "latitude": 1.3921,
+        "longitude": 103.895,
+        "x_coord": 34864.33,
+        "y_coord": 41556.95
     },
     {
         "mall_name": "Hougang Mall",
@@ -591,7 +803,11 @@
             "weekdays_after_5pm": "6.00pm-6.00am: $2.25 per entry",
             "saturdays": "6am-6pm: $1.50 for 1st hr; $1.15 sub.30min; 6pm-6am: $2.25 per entry",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.3724,
+        "longitude": 103.8937,
+        "x_coord": 34719.72,
+        "y_coord": 39378.62
     },
     {
         "mall_name": "Junction 8",
@@ -602,7 +818,11 @@
             "weekdays_after_5pm": "6.00pm-11.59pm: $2.65 per entry",
             "saturdays": "12.00am-5.59pm - $2.65 for 1st 2hr; $0.45 for sub. 15 min. 6.00pm-11.59pm: $2.65 per entry",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.3502,
+        "longitude": 103.8485,
+        "x_coord": 29689.52,
+        "y_coord": 36923.78
     },
     {
         "mall_name": "Nex",
@@ -613,7 +833,11 @@
             "weekdays_after_5pm": "$2.50 per entry after 6pm",
             "saturdays": "$1.50 for 1st hr, $0.80 for sub 30mins. $2.50 per entry after 6pm",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.3507,
+        "longitude": 103.8726,
+        "x_coord": 32371.58,
+        "y_coord": 36979.09
     },
     {
         "mall_name": "Northpoint City",
@@ -624,7 +848,11 @@
             "weekdays_after_5pm": "$2.50 per entry after 6pm",
             "saturdays": "$1.50 for 1st hr, $0.80 for sub 30mins. $2.50 per entry after 6pm",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.4294,
+        "longitude": 103.8358,
+        "x_coord": 28276.15,
+        "y_coord": 45681.31
     },
     {
         "mall_name": "Waterway Point",
@@ -635,7 +863,11 @@
             "weekdays_after_5pm": "$2.50 per entry after 6pm",
             "saturdays": "$1.50 for 1st hr, $0.80 for sub 30mins. $2.50 per entry after 6pm",
             "sundays_and_ph": "Same as Saturday"
-        }
+        },
+        "latitude": 1.4061,
+        "longitude": 103.9021,
+        "x_coord": 35654.42,
+        "y_coord": 43105.02
     },
     {
         "mall_name": "888 Plaza",
@@ -646,7 +878,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.4371,
+        "longitude": 103.7953,
+        "x_coord": 23769.11,
+        "y_coord": 46532.77
     },
     {
         "mall_name": "Admiralty Place",
@@ -657,7 +893,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.4399,
+        "longitude": 103.8018,
+        "x_coord": 24492.47,
+        "y_coord": 46842.37
     },
     {
         "mall_name": "Boon Lay Shopping Centre",
@@ -668,7 +908,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.3465,
+        "longitude": 103.7121,
+        "x_coord": 14509.7,
+        "y_coord": 36514.98
     },
     {
         "mall_name": "Buangkok Square",
@@ -679,7 +923,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.3857,
+        "longitude": 103.8797,
+        "x_coord": 33161.66,
+        "y_coord": 40849.23
     },
     {
         "mall_name": "Canberra Plaza",
@@ -690,7 +938,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.4431,
+        "longitude": 103.8298,
+        "x_coord": 27608.44,
+        "y_coord": 47196.18
     },
     {
         "mall_name": "Dawson Place",
@@ -701,7 +953,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.2927,
+        "longitude": 103.811,
+        "x_coord": 25516.14,
+        "y_coord": 30565.73
     },
     {
         "mall_name": "Elias Mall",
@@ -712,7 +968,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.3778,
+        "longitude": 103.9424,
+        "x_coord": 40139.41,
+        "y_coord": 39975.92
     },
     {
         "mall_name": "Fajar Shopping Centre",
@@ -723,7 +983,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.384,
+        "longitude": 103.771,
+        "x_coord": 21064.74,
+        "y_coord": 40661.3
     },
     {
         "mall_name": "Gek Poh Shopping Centre",
@@ -734,7 +998,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.3487,
+        "longitude": 103.6983,
+        "x_coord": 12973.92,
+        "y_coord": 36758.33
     },
     {
         "mall_name": "Greenridge Shopping Centre",
@@ -745,7 +1013,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.3854,
+        "longitude": 103.7662,
+        "x_coord": 20530.56,
+        "y_coord": 40816.11
     },
     {
         "mall_name": "Hougang Green Shopping Mall",
@@ -756,7 +1028,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.3789,
+        "longitude": 103.8824,
+        "x_coord": 33462.15,
+        "y_coord": 40097.33
     },
     {
         "mall_name": "Jubilee Square",
@@ -767,7 +1043,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.3722,
+        "longitude": 103.8475,
+        "x_coord": 29578.22,
+        "y_coord": 39356.42
     },
     {
         "mall_name": "Keat Hong Shopping Centre",
@@ -778,7 +1058,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.3831,
+        "longitude": 103.749,
+        "x_coord": 18616.41,
+        "y_coord": 40561.85
     },
     {
         "mall_name": "Loyang Point",
@@ -789,7 +1073,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.3665,
+        "longitude": 103.9646,
+        "x_coord": 42610.07,
+        "y_coord": 38726.54
     },
     {
         "mall_name": "Oasis Terraces",
@@ -800,7 +1088,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.4022,
+        "longitude": 103.9126,
+        "x_coord": 36822.95,
+        "y_coord": 42673.82
     },
     {
         "mall_name": "Pioneer Mall",
@@ -811,7 +1103,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.3414,
+        "longitude": 103.6974,
+        "x_coord": 12873.72,
+        "y_coord": 35951.13
     },
     {
         "mall_name": "Punggol Plaza",
@@ -822,7 +1118,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.3937,
+        "longitude": 103.9157,
+        "x_coord": 37167.97,
+        "y_coord": 41733.94
     },
     {
         "mall_name": "Rivervale Mall",
@@ -833,7 +1133,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.3922,
+        "longitude": 103.9042,
+        "x_coord": 35888.17,
+        "y_coord": 41568.04
     },
     {
         "mall_name": "Rivervale Plaza",
@@ -844,7 +1148,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.3837,
+        "longitude": 103.8986,
+        "x_coord": 35264.99,
+        "y_coord": 40628.13
     },
     {
         "mall_name": "Sembawang Shopping Centre",
@@ -855,7 +1163,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.4426,
+        "longitude": 103.8252,
+        "x_coord": 27096.53,
+        "y_coord": 47140.9
     },
     {
         "mall_name": "Sunshine Place",
@@ -866,7 +1178,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.3794,
+        "longitude": 103.7454,
+        "x_coord": 18215.76,
+        "y_coord": 40152.74
     },
     {
         "mall_name": "Taman Jurong Shopping Centre",
@@ -877,7 +1193,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.3323,
+        "longitude": 103.7218,
+        "x_coord": 15589.13,
+        "y_coord": 34944.76
     },
     {
         "mall_name": "Vista Point",
@@ -888,7 +1208,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.4314,
+        "longitude": 103.7937,
+        "x_coord": 23591.05,
+        "y_coord": 45902.49
     },
     {
         "mall_name": "Wisteria Mall",
@@ -899,7 +1223,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.4172,
+        "longitude": 103.8427,
+        "x_coord": 29044.02,
+        "y_coord": 44332.29
     },
     {
         "mall_name": "Woodlands Mart",
@@ -910,7 +1238,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.4438,
+        "longitude": 103.7989,
+        "x_coord": 24169.75,
+        "y_coord": 47273.62
     },
     {
         "mall_name": "YewTee Point",
@@ -921,7 +1253,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.3975,
+        "longitude": 103.7481,
+        "x_coord": 18516.31,
+        "y_coord": 42154.14
     },
     {
         "mall_name": "Heartland Mall",
@@ -932,7 +1268,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.3595,
+        "longitude": 103.8852,
+        "x_coord": 33773.8,
+        "y_coord": 37952.18
     },
     {
         "mall_name": "Hougang 1",
@@ -943,7 +1283,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.3757,
+        "longitude": 103.8795,
+        "x_coord": 33139.42,
+        "y_coord": 39743.48
     },
     {
         "mall_name": "Greenwich V",
@@ -954,7 +1298,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.3876,
+        "longitude": 103.8694,
+        "x_coord": 32015.4,
+        "y_coord": 41059.3
     },
     {
         "mall_name": "Kranji Green",
@@ -965,7 +1313,11 @@
             "weekdays_after_5pm": "$1.20 per hr or $0.60 per 30 mins",
             "saturdays": "$1.20 per hr or $0.60 per 30 mins",
             "sundays_and_ph": "$1.20 per hr or $0.60 per 30 mins"
-        }
+        },
+        "latitude": 1.4244,
+        "longitude": 103.7617,
+        "x_coord": 20029.9,
+        "y_coord": 45128.56
     },
     {
         "mall_name": "Capitol Piazza",
@@ -976,7 +1328,11 @@
             "weekdays_after_5pm": "$3.00 per entry",
             "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
             "sundays_and_ph": "$3.00 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.2931,
+        "longitude": 103.8513,
+        "x_coord": 30001.18,
+        "y_coord": 30609.95
     },
     {
         "mall_name": "Cathay Cineleisure Orchard",
@@ -987,7 +1343,11 @@
             "weekdays_after_5pm": "$3.00 per entry",
             "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
             "sundays_and_ph": "$3.00 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3015,
+        "longitude": 103.8364,
+        "x_coord": 28342.93,
+        "y_coord": 31538.78
     },
     {
         "mall_name": "The Centrepoint",
@@ -998,7 +1358,11 @@
             "weekdays_after_5pm": "$3.00 per entry",
             "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
             "sundays_and_ph": "$3.00 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3015,
+        "longitude": 103.8398,
+        "x_coord": 28721.32,
+        "y_coord": 31538.78
     },
     {
         "mall_name": "Clarke Quay Central",
@@ -1009,7 +1373,11 @@
             "weekdays_after_5pm": "$3.00 per entry",
             "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
             "sundays_and_ph": "$3.00 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.2889,
+        "longitude": 103.8466,
+        "x_coord": 29478.11,
+        "y_coord": 30145.54
     },
     {
         "mall_name": "Concorde Hotel",
@@ -1020,7 +1388,11 @@
             "weekdays_after_5pm": "$3.00 per entry",
             "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
             "sundays_and_ph": "$3.00 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3006,
+        "longitude": 103.8427,
+        "x_coord": 29044.07,
+        "y_coord": 31439.26
     },
     {
         "mall_name": "Delfi Orchard",
@@ -1031,7 +1403,11 @@
             "weekdays_after_5pm": "$3.00 per entry",
             "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
             "sundays_and_ph": "$3.00 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3065,
+        "longitude": 103.8285,
+        "x_coord": 27463.74,
+        "y_coord": 32091.65
     },
     {
         "mall_name": "Esplanade Mall",
@@ -1042,7 +1418,11 @@
             "weekdays_after_5pm": "$3.00 per entry",
             "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
             "sundays_and_ph": "$3.00 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.2895,
+        "longitude": 103.8557,
+        "x_coord": 30490.86,
+        "y_coord": 30211.89
     },
     {
         "mall_name": "Far East Shopping Centre",
@@ -1053,7 +1433,11 @@
             "weekdays_after_5pm": "$3.00 per entry",
             "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
             "sundays_and_ph": "$3.00 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3056,
+        "longitude": 103.8306,
+        "x_coord": 27697.45,
+        "y_coord": 31992.13
     },
     {
         "mall_name": "Liat Towers",
@@ -1064,7 +1448,11 @@
             "weekdays_after_5pm": "$3.00 per entry",
             "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
             "sundays_and_ph": "$3.00 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3051,
+        "longitude": 103.8307,
+        "x_coord": 27708.58,
+        "y_coord": 31936.85
     },
     {
         "mall_name": "Lucky Plaza",
@@ -1075,7 +1463,11 @@
             "weekdays_after_5pm": "$3.00 per entry",
             "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
             "sundays_and_ph": "$3.00 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3045,
+        "longitude": 103.834,
+        "x_coord": 28075.84,
+        "y_coord": 31870.5
     },
     {
         "mall_name": "Marina Bay Link Mall",
@@ -1086,7 +1478,11 @@
             "weekdays_after_5pm": "$3.00 per entry",
             "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
             "sundays_and_ph": "$3.00 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.2801,
+        "longitude": 103.854,
+        "x_coord": 30301.67,
+        "y_coord": 29172.48
     },
     {
         "mall_name": "Midpoint Orchard",
@@ -1097,7 +1493,11 @@
             "weekdays_after_5pm": "$3.00 per entry",
             "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
             "sundays_and_ph": "$3.00 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3023,
+        "longitude": 103.8385,
+        "x_coord": 28576.65,
+        "y_coord": 31627.24
     },
     {
         "mall_name": "Millenia Walk",
@@ -1108,7 +1508,11 @@
             "weekdays_after_5pm": "$3.00 per entry",
             "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
             "sundays_and_ph": "$3.00 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.2926,
+        "longitude": 103.8601,
+        "x_coord": 30980.54,
+        "y_coord": 30554.68
     },
     {
         "mall_name": "Orchard Gateway",
@@ -1119,7 +1523,11 @@
             "weekdays_after_5pm": "$3.00 per entry",
             "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
             "sundays_and_ph": "$3.00 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3012,
+        "longitude": 103.8395,
+        "x_coord": 28687.94,
+        "y_coord": 31505.6
     },
     {
         "mall_name": "OUE Downtown Gallery",
@@ -1130,7 +1538,11 @@
             "weekdays_after_5pm": "$3.00 per entry",
             "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
             "sundays_and_ph": "$3.00 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.2771,
+        "longitude": 103.8492,
+        "x_coord": 29767.48,
+        "y_coord": 28840.76
     },
     {
         "mall_name": "Pacific Plaza",
@@ -1141,7 +1553,11 @@
             "weekdays_after_5pm": "$3.00 per entry",
             "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
             "sundays_and_ph": "$3.00 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3068,
+        "longitude": 103.8317,
+        "x_coord": 27819.87,
+        "y_coord": 32124.82
     },
     {
         "mall_name": "Palais Renaissance",
@@ -1152,7 +1568,11 @@
             "weekdays_after_5pm": "$3.00 per entry",
             "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
             "sundays_and_ph": "$3.00 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3065,
+        "longitude": 103.8291,
+        "x_coord": 27530.51,
+        "y_coord": 32091.65
     },
     {
         "mall_name": "Peninsula Plaza",
@@ -1163,7 +1583,11 @@
             "weekdays_after_5pm": "$3.00 per entry",
             "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
             "sundays_and_ph": "$3.00 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.2925,
+        "longitude": 103.8504,
+        "x_coord": 29901.01,
+        "y_coord": 30543.61
     },
     {
         "mall_name": "Shaw House",
@@ -1174,7 +1598,11 @@
             "weekdays_after_5pm": "$3.00 per entry",
             "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
             "sundays_and_ph": "$3.00 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.306,
+        "longitude": 103.8315,
+        "x_coord": 27797.61,
+        "y_coord": 32036.36
     },
     {
         "mall_name": "The Adelphi",
@@ -1185,7 +1613,11 @@
             "weekdays_after_5pm": "$3.00 per entry",
             "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
             "sundays_and_ph": "$3.00 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.2915,
+        "longitude": 103.8509,
+        "x_coord": 29956.66,
+        "y_coord": 30433.03
     },
     {
         "mall_name": "The Cathay",
@@ -1196,7 +1628,11 @@
             "weekdays_after_5pm": "$3.00 per entry",
             "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
             "sundays_and_ph": "$3.00 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.2995,
+        "longitude": 103.8488,
+        "x_coord": 29722.94,
+        "y_coord": 31317.63
     },
     {
         "mall_name": "100 AM",
@@ -1207,7 +1643,11 @@
             "weekdays_after_5pm": "$3.00 per entry",
             "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
             "sundays_and_ph": "$3.00 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.2746,
+        "longitude": 103.8435,
+        "x_coord": 29133.11,
+        "y_coord": 28564.31
     },
     {
         "mall_name": "Chinatown Point",
@@ -1218,7 +1658,11 @@
             "weekdays_after_5pm": "$3.00 per entry",
             "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
             "sundays_and_ph": "$3.00 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.2853,
+        "longitude": 103.8449,
+        "x_coord": 29288.92,
+        "y_coord": 29747.47
     },
     {
         "mall_name": "Bras Basah Complex",
@@ -1229,7 +1673,11 @@
             "weekdays_after_5pm": "$3.00 per entry",
             "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
             "sundays_and_ph": "$3.00 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.2968,
+        "longitude": 103.8532,
+        "x_coord": 30212.63,
+        "y_coord": 31019.08
     },
     {
         "mall_name": "Mustafa Centre",
@@ -1240,7 +1688,11 @@
             "weekdays_after_5pm": "$3.00 per entry",
             "saturdays": "$3.00 for 1st hr, $1.50 for sub. 30 mins",
             "sundays_and_ph": "$3.00 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3101,
+        "longitude": 103.8554,
+        "x_coord": 30457.45,
+        "y_coord": 32489.73
     },
     {
         "mall_name": "Jewel Changi Airport",
@@ -1251,7 +1703,11 @@
             "weekdays_after_5pm": "$1.30 per 30 mins",
             "saturdays": "$1.30 per 30 mins",
             "sundays_and_ph": "$1.30 per 30 mins"
-        }
+        },
+        "latitude": 1.3603,
+        "longitude": 103.9897,
+        "x_coord": 45403.45,
+        "y_coord": 38041.14
     },
     {
         "mall_name": "IKEA Tampines",
@@ -1262,7 +1718,11 @@
             "weekdays_after_5pm": "Free Parking",
             "saturdays": "Free Parking",
             "sundays_and_ph": "Free Parking"
-        }
+        },
+        "latitude": 1.3742,
+        "longitude": 103.9322,
+        "x_coord": 39004.29,
+        "y_coord": 39577.8
     },
     {
         "mall_name": "IKEA Alexandra",
@@ -1273,7 +1733,11 @@
             "weekdays_after_5pm": "$2.50 per entry",
             "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
             "sundays_and_ph": "$2.50 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.2878,
+        "longitude": 103.8062,
+        "x_coord": 24981.93,
+        "y_coord": 30023.92
     },
     {
         "mall_name": "Kinex",
@@ -1284,7 +1748,11 @@
             "weekdays_after_5pm": "$2.50 per entry",
             "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
             "sundays_and_ph": "$2.50 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3147,
+        "longitude": 103.8945,
+        "x_coord": 34808.91,
+        "y_coord": 32998.45
     },
     {
         "mall_name": "Paya Lebar Quarter (PLQ)",
@@ -1295,7 +1763,11 @@
             "weekdays_after_5pm": "$2.50 per entry",
             "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
             "sundays_and_ph": "$2.50 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3175,
+        "longitude": 103.8931,
+        "x_coord": 34653.09,
+        "y_coord": 33308.05
     },
     {
         "mall_name": "Paya Lebar Square",
@@ -1306,7 +1778,11 @@
             "weekdays_after_5pm": "$2.50 per entry",
             "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
             "sundays_and_ph": "$2.50 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3185,
+        "longitude": 103.8925,
+        "x_coord": 34586.31,
+        "y_coord": 33418.63
     },
     {
         "mall_name": "SingPost Centre",
@@ -1317,7 +1793,11 @@
             "weekdays_after_5pm": "$2.50 per entry",
             "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
             "sundays_and_ph": "$2.50 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3195,
+        "longitude": 103.8943,
+        "x_coord": 34786.63,
+        "y_coord": 33529.21
     },
     {
         "mall_name": "Seletar Mall",
@@ -1328,7 +1808,11 @@
             "weekdays_after_5pm": "$2.50 per entry",
             "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
             "sundays_and_ph": "$2.50 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3916,
+        "longitude": 103.8797,
+        "x_coord": 33161.64,
+        "y_coord": 41501.62
     },
     {
         "mall_name": "Thomson Plaza",
@@ -1339,7 +1823,11 @@
             "weekdays_after_5pm": "$2.50 per entry",
             "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
             "sundays_and_ph": "$2.50 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3537,
+        "longitude": 103.8313,
+        "x_coord": 27775.36,
+        "y_coord": 37310.78
     },
     {
         "mall_name": "Tiong Bahru Plaza",
@@ -1350,7 +1838,11 @@
             "weekdays_after_5pm": "$2.50 per entry",
             "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
             "sundays_and_ph": "$2.50 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.2863,
+        "longitude": 103.8274,
+        "x_coord": 27341.31,
+        "y_coord": 29858.04
     },
     {
         "mall_name": "United Square",
@@ -1361,7 +1853,11 @@
             "weekdays_after_5pm": "$2.50 per entry",
             "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
             "sundays_and_ph": "$2.50 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3174,
+        "longitude": 103.8437,
+        "x_coord": 29155.35,
+        "y_coord": 33296.92
     },
     {
         "mall_name": "Velocity @ Novena Square",
@@ -1372,7 +1868,11 @@
             "weekdays_after_5pm": "$2.50 per entry",
             "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
             "sundays_and_ph": "$2.50 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3204,
+        "longitude": 103.8436,
+        "x_coord": 29144.22,
+        "y_coord": 33628.64
     },
     {
         "mall_name": "Zhongshan Mall",
@@ -1383,7 +1883,11 @@
             "weekdays_after_5pm": "$2.50 per entry",
             "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
             "sundays_and_ph": "$2.50 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3268,
+        "longitude": 103.8465,
+        "x_coord": 29466.96,
+        "y_coord": 34336.32
     },
     {
         "mall_name": "321 Clementi",
@@ -1394,7 +1898,11 @@
             "weekdays_after_5pm": "$2.50 per entry",
             "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
             "sundays_and_ph": "$2.50 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.312,
+        "longitude": 103.765,
+        "x_coord": 20396.79,
+        "y_coord": 32699.92
     },
     {
         "mall_name": "Kallang Wave Mall",
@@ -1405,7 +1913,11 @@
             "weekdays_after_5pm": "$2.50 per entry",
             "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
             "sundays_and_ph": "$2.50 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3038,
+        "longitude": 103.8728,
+        "x_coord": 32393.92,
+        "y_coord": 31793.13
     },
     {
         "mall_name": "Leisure Park Kallang",
@@ -1416,7 +1928,11 @@
             "weekdays_after_5pm": "$2.50 per entry",
             "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
             "sundays_and_ph": "$2.50 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3023,
+        "longitude": 103.8764,
+        "x_coord": 32794.57,
+        "y_coord": 31627.28
     },
     {
         "mall_name": "Katong V",
@@ -1427,7 +1943,11 @@
             "weekdays_after_5pm": "$2.50 per entry",
             "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
             "sundays_and_ph": "$2.50 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3031,
+        "longitude": 103.9032,
+        "x_coord": 35777.17,
+        "y_coord": 31715.8
     },
     {
         "mall_name": "Katong Square",
@@ -1438,7 +1958,11 @@
             "weekdays_after_5pm": "$2.50 per entry",
             "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
             "sundays_and_ph": "$2.50 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3045,
+        "longitude": 103.9041,
+        "x_coord": 35877.33,
+        "y_coord": 31870.61
     },
     {
         "mall_name": "Katong Shopping Centre",
@@ -1449,7 +1973,11 @@
             "weekdays_after_5pm": "$2.50 per entry",
             "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
             "sundays_and_ph": "$2.50 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3038,
+        "longitude": 103.901,
+        "x_coord": 35532.33,
+        "y_coord": 31793.2
     },
     {
         "mall_name": "Square 2",
@@ -1460,7 +1988,11 @@
             "weekdays_after_5pm": "$2.50 per entry",
             "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
             "sundays_and_ph": "$2.50 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3207,
+        "longitude": 103.8444,
+        "x_coord": 29233.25,
+        "y_coord": 33661.82
     },
     {
         "mall_name": "The Poiz Centre",
@@ -1471,7 +2003,11 @@
             "weekdays_after_5pm": "$2.50 per entry",
             "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
             "sundays_and_ph": "$2.50 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3314,
+        "longitude": 103.8686,
+        "x_coord": 31926.46,
+        "y_coord": 34844.99
     },
     {
         "mall_name": "Djitsun Mall",
@@ -1482,7 +2018,11 @@
             "weekdays_after_5pm": "$2.50 per entry",
             "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
             "sundays_and_ph": "$2.50 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3261,
+        "longitude": 103.9296,
+        "x_coord": 38715.15,
+        "y_coord": 34259.13
     },
     {
         "mall_name": "Beauty World Centre",
@@ -1493,7 +2033,11 @@
             "weekdays_after_5pm": "$2.50 per entry",
             "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
             "sundays_and_ph": "$2.50 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.3424,
+        "longitude": 103.7765,
+        "x_coord": 21676.71,
+        "y_coord": 36061.36
     },
     {
         "mall_name": "Queensway Shopping Centre",
@@ -1504,6 +2048,10 @@
             "weekdays_after_5pm": "$2.50 per entry",
             "saturdays": "$1.50 for 1st hr, $0.80 for sub. 30 mins",
             "sundays_and_ph": "$2.50 per entry or same as Saturday"
-        }
+        },
+        "latitude": 1.2876,
+        "longitude": 103.8034,
+        "x_coord": 24670.31,
+        "y_coord": 30001.81
     }
 ]
