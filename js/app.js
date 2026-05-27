@@ -59,6 +59,7 @@ function copyToClipboard(text) {
 function getAvailabilityBadge(availableLots) {
     if (availableLots === "N/A") return `<span class="badge badge-gray">N/A</span>`;
     const lots = parseInt(availableLots);
+    if (lots === 0) return `<span class="badge badge-red">Full</span>`;
     if (lots < 10) return `<span class="badge badge-red">Almost Full (${lots})</span>`;
     if (lots <= 50) return `<span class="badge badge-orange">Filling (${lots})</span>`;
     return `<span class="badge badge-green">Available (${lots})</span>`;
