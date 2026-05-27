@@ -19,7 +19,7 @@ proj4.defs("EPSG:3414","+proj=tmerc +lat_0=1.366666666666667 +lon_0=103.83333333
 const API = {
     // If you are testing locally and the GitHub URL still fails, change these to your local file paths!
     HDB_STATIC: "https://raw.githubusercontent.com/lilhorsie/SuperHorsee/main/data/HDBCarparkInformation.json",
-    MALL_STATIC: "compiled_all_singapore_shopping_malls_carpark.json",
+    MALL_STATIC: "https://raw.githubusercontent.com/lilhorsie/SuperHorsee/main/data/compiled_all_singapore_shopping_malls_carpark.json",
     HDB_LIVE: "https://api.data.gov.sg/v1/transport/carpark-availability"
 };
 
