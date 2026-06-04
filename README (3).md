@@ -9,11 +9,11 @@ Finding parking in Singapore can be stressful and expensive. This application pr
 This website is built for drivers in Singapore who want to save time and money when looking for parking. By providing immediate access to live availability and pricing data, the project helps users make informed decisions on where to park.
 
 **User Stories:**
-- As a driver, I want to search for a specific shopping mall, so that I can compare its weekday and weekend parking rates before I visit. It is also good to find malls that have HDB Carparks nearby as mall carparks might be pricier and crowded during peak hours
+- As a driver, I want to search for a specific shopping mall, so that I can compare its weekday and weekend parking rates before I visit. It is also good to find malls that have HDB Carparks nearby as mall carparks might be pricier and crowded during peak hours.
 - As a commuter, I want to search for an HDB carpark using its street address or carpark number, so that I can see exactly how many lots are currently available.
 - As a user, I want the system to tell me if no results match my search or if the data fails to load, so that I am not left guessing if the app is broken.
 
-## Features
+## Features Implemented
 
 ### Existing Features
 - **Live HDB Carpark Availability** - allows users to view real-time car lot availability by pulling data from a live API and matching it with specific HDB addresses.
@@ -21,6 +21,7 @@ This website is built for drivers in Singapore who want to save time and money w
 - **Smart Search functionality** - allows users to filter large datasets instantly by typing the name of a mall, address, or carpark number.
 - **Geolocation Integration** - to automatically find and display the nearest available carparks based on the user's current GPS location.
 - **Map View** - to allow user to view the carpark locations on a live interactive map 
+- **Dark Mode** - allows user to adjust screen display mode to suit their preference
 
 ### Features Left to Implement
 - **Favorites System** - to let users bookmark specific malls or HDB carparks for quicker access in the future.
