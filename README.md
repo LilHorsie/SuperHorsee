@@ -18,7 +18,7 @@ This website is built for drivers in Singapore who want to save time and money w
 ### Existing Features
 - **Live HDB Carpark Availability** - allows users to view real-time car lot availability by pulling data from a live API and matching it with specific HDB addresses.
 - **Mall Pricing Directory** - allows users to view a comprehensive table of shopping mall carpark rates, broken down by weekdays, weekends, and public holidays.
-- **Smart Search functionality** - allows users to filter large datasets instantly by typing the name of a mall, address, or carpark number.
+- **Search functionality** - allows users to filter large datasets instantly by typing the name of a mall, address, or carpark number.
 - **Geolocation Integration** - to automatically find and display the nearest available carparks based on the user's current GPS location.
 - **Map View** - to allow user to view the carpark locations on a live interactive map 
 - **Dark Mode** - allows user to adjust screen display mode to suit their preference

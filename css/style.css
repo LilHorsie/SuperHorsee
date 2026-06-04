@@ -134,7 +134,7 @@ body {
     background-color: #4B5563;
 }
 
-/* --- Modern App-Style Tabs --- */
+/* --- Tabs --- */
 .tabs {
     display: inline-flex;
     background: var(--bg-color);
@@ -452,33 +452,4 @@ tbody tr:hover {
 [data-theme="dark"] .leaflet-popup-tip {
     background-color: var(--surface);
     color: var(--text-main);
-}
-
-/* --- Mobile Responsiveness --- */
-@media (max-width: 1024px) {
-    .split-layout {
-        flex-direction: column-reverse; 
-        height: auto; 
-    }
-    .right-panel {
-        height: 40vh; 
-        min-height: 350px;
-    }
-    .left-panel {
-        overflow-y: visible; 
-    }
-    .header-top { flex-direction: column; gap: 10px; }
-    .search-container { flex-direction: column; gap: 10px; }
-    .btn-near-me { padding: 14px; }
-    .btn-clear { padding: 14px; }
-    .hdb-controls { flex-direction: column; gap: 10px; align-items: stretch; }
-    .refresh-status { display: flex; justify-content: space-between; align-items: center; }
-}
-/* --- Auto-Dark Mode for Map Tiles --- */
-[data-theme="dark"] .leaflet-layer,
-[data-theme="dark"] .leaflet-control-zoom-in,
-[data-theme="dark"] .leaflet-control-zoom-out,
-[data-theme="dark"] .leaflet-control-attribution {
-    filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
-    transition: filter 0.3s ease;
 }
