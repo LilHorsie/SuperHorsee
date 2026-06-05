@@ -99,11 +99,42 @@ window.panToMap = function(lat, lng, title) {
     if (lat && lng) {
         map.setView([lat, lng], 16);
         showToast(`📍 Panning map to ${title}`);
+
+        // Loop through all pins on the map
+        markerLayerGroup.eachLayer((layer) => {
+            // Make sure the layer is a circleMarker and has coordinates
+            if (layer.getLatLng && layer.setStyle) {
+                const layerLat = layer.getLatLng().lat;
+                const layerLng = layer.getLatLng().lng;
+
+                // Is this the pin we just clicked?
+                if (layerLat === lat && layerLng === lng) {
+                    // Turn it Red, make it slightly bigger, and give it a bold outline
+                    layer.setStyle({ 
+                        fillColor: '#ef4444', // Red
+                        color: '#000000',     // Black border
+                        weight: 3, 
+                        radius: 9 
+                    });
+                    if (layer.openPopup) layer.openPopup(); // Automatically pop open the info bubble
+                } 
+                // Otherwise, if it has a default color saved, reset it back to normal
+                else if (layer.defaultColor) {
+                    layer.setStyle({ 
+                        fillColor: layer.defaultColor, 
+                        color: '#fff', 
+                        weight: 1, 
+                        radius: layer.defaultRadius 
+                    });
+                }
+            }
+        });
+
     } else {
         showToast(`❌ Location data unavailable for ${title}`);
     }
 };
-// Main application initializer
+//Main application initializer
 // Fetches the static data for HDB and Mall information, processes it and then fetches the live availability data for the HDB Carparks
 async function initApp() {
     initMap(); 
@@ -292,13 +323,13 @@ function renderCurrentTab(openUserPopup = false) {
     if (appState.userLocation) {
         const userMarker = L.circleMarker([appState.userLocation.lat, appState.userLocation.lng], {
             radius: 8,
-            fillColor: "#00d9ff", // Bright Blue
-            color: "#000000",     // White border
+            fillColor: "#2563EB", // Bright Blue
+            color: "#ffffff",     // White border
             weight: 3,
             opacity: 1,
             fillOpacity: 1
         }).addTo(markerLayerGroup)
-          .bindPopup("<b>📍 You are here!</b>");
+          .bindPopup("<b>📍 You are here</b>");
           
         if (openUserPopup) {
             userMarker.openPopup();
@@ -342,14 +373,20 @@ function renderCurrentTab(openUserPopup = false) {
         // Draw HDB Pins
         displayData.forEach(h => {
             if (h.lat && h.lng) {
+                const baseColor = (h.available === "N/A" || parseInt(h.available) === 0) ? "#ef4444" : "#4F46E5";
+                
                 const marker = L.circleMarker([h.lat, h.lng], {
                     radius: 6,
-                    fillColor: h.available === "N/A" || h.available === "0" ? "#ef4444" : "#4F46E5",
+                    fillColor: baseColor,
                     color: "#fff",
                     weight: 1,
                     opacity: 1,
                     fillOpacity: 0.8
                 }).addTo(markerLayerGroup);
+
+                // Save the original color and size so we can reset it later
+                marker.defaultColor = baseColor;
+                marker.defaultRadius = 6;
 
                 marker.bindPopup(`
                     <div style="font-family: Inter, sans-serif; font-size: 13px;">
@@ -405,6 +442,10 @@ function renderCurrentTab(openUserPopup = false) {
                     opacity: 1,
                     fillOpacity: 0.9
                 }).addTo(markerLayerGroup);
+
+                // Save the original color and size
+                marker.defaultColor = "#10B981";
+                marker.defaultRadius = 7;
 
                 const pricing = m.pricing || {};
                 const wkdayBef = pricing.weekdays_before_5pm || 'N/A';
