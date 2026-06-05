@@ -40,6 +40,7 @@ body {
     padding: 2rem 1rem;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
+    text-align: center;
 }
 
 .header-container {
@@ -49,9 +50,10 @@ body {
 
 .header-top {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-bottom: 0.5rem;
+    position: relative;
 }
 
 .header-top h1 {
@@ -68,6 +70,8 @@ body {
     font-weight: 600;
     cursor: pointer;
     transition: background 0.2s;
+    position: absolute; /* 👈 Pulls the button out of the normal flex flow */
+    right: 0;
 }
 
 .theme-btn:hover { background: rgba(255, 255, 255, 0.3); }
@@ -75,6 +79,7 @@ body {
 .app-header p {
     color: #E0E7FF;
     font-size: 1.1rem;
+    text-align: center;
 }
 
 /* --- Flexbox Layout --- */
