@@ -64,5 +64,3 @@ The project is currently deployed and hosted live on GitHub Pages. You can view 
 - The live carpark availability data was retrieved from the [Data.gov.sg Carpark Availability API](https://data.gov.sg/datasets?topics=housing|transport&resultId=d_ca933a644e55d34fe21f28b8052fac63#GET/transport/carpark-availability).
 - Static HDB carpark locations data was retrieved from the [Data.gov.sg Detailed Carpark Information](https://data.gov.sg/datasets/d_23f946fa557947f93a8043bbef41dd09/view).
 
-### Acknowledgements
-- I received inspiration for the structural requirements of this project from the PF1 Full Stack Development Interactive Application Assignment brief.
