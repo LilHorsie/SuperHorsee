@@ -7,7 +7,8 @@ const appState = {
     searchQuery: "",
     hdbSortDesc: true,
     sortByDistance: false,
-    lastUpdated: new Date()
+    lastUpdated: new Date(),
+    userLocation: null 
 };
 
 // --- Map Setup ---
@@ -23,6 +24,7 @@ const API = {
     HDB_LIVE: "https://api.data.gov.sg/v1/transport/carpark-availability"
 };
 
+// Cached DOM Elements to prevent redundant queries and improve performance
 const elements = {
     tabs: document.querySelectorAll('.tabs .tab-btn'),
     contents: document.querySelectorAll('.tab-content'),
@@ -39,8 +41,11 @@ const elements = {
     lastUpdatedText: document.getElementById('lastUpdatedText')
 };
 
+
+// Allows for consistent search behavior by normalizing text: lowercasing, removing special characters, and collapsing whitespace
 const cleanText = (text) => text.toLowerCase().replace(/[^a-z0-9]/g, " ").replace(/\s+/g, " ").trim();
 
+// Creates and displays a temporary toast notification with the provided message, then fades out and removes itself after a short duration
 function showToast(message) {
     const toast = document.createElement('div');
     toast.className = 'toast';
@@ -52,10 +57,12 @@ function showToast(message) {
     }, 2500);
 }
 
+// Copies the specific text to the user's clipboard and shows a confirmation message
 function copyToClipboard(text) {
     navigator.clipboard.writeText(text).then(() => showToast(`📋 Copied: ${text}`));
 }
 
+// Generates a HTML span element representing a badge for carpark availability, with different colors and labels based on the number of available lots
 function getAvailabilityBadge(availableLots) {
     if (availableLots === "N/A") return `<span class="badge badge-gray">N/A</span>`;
     const lots = parseInt(availableLots);
@@ -65,6 +72,7 @@ function getAvailabilityBadge(availableLots) {
     return `<span class="badge badge-green">Available (${lots})</span>`;
 }
 
+//Calculates the geographical distance between two points using the Harvesine formula, which accounts for the curvature of the Earth, and returns the distance in kilometers
 function calculateDistance(lat1, lon1, lat2, lon2) {
     const R = 6371;
     const dLat = (lat2 - lat1) * (Math.PI / 180);
@@ -75,16 +83,18 @@ function calculateDistance(lat1, lon1, lat2, lon2) {
 }
 
 // --- Initialize Interactive Map ---
+// Sets the default view to Singapore
+// Uses a cleaner, monotone tile layer from CartoDB for better visibility of markers 
 function initMap() {
     map = L.map('map').setView([1.3521, 103.8198], 11); 
-    // Clean, Monotone Map Tile
+
     L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
         maxZoom: 19,
         attribution: '© OpenStreetMap contributors © CARTO'
     }).addTo(map);
     markerLayerGroup = L.layerGroup().addTo(map);
 }
-
+// Allows the user to click on a carpark or mall and have the map pan and zoom to the selected location
 window.panToMap = function(lat, lng, title) {
     if (lat && lng) {
         map.setView([lat, lng], 16);
@@ -93,7 +103,8 @@ window.panToMap = function(lat, lng, title) {
         showToast(`❌ Location data unavailable for ${title}`);
     }
 };
-
+// Main application initializer
+// Fetches the static data for HDB and Mall information, processes it and then fetches the live availability data for the HDB Carparks
 async function initApp() {
     initMap(); 
     showToast("🔄 Loading data...");
@@ -103,7 +114,6 @@ async function initApp() {
         const hdbInfo = await hdbInfoRes.json();
         const mallDataRaw = await mallRes.json();
 
-        // Parse HDB Data
         appState.hdbData = hdbInfo.map(carpark => {
             let lat = null, lng = null;
             const x = parseFloat(carpark.x_coord);
@@ -132,6 +142,7 @@ async function initApp() {
             let lng = mall.longitude || mall.lng || null;
 
             // Fallback: Convert SVY21 x/y if Lat/Lng is missing
+            // Singapore uses x / y, so checks for both. Only attempts conversion if lat/lng are missing and x/y are present and valid.
             if (!lat && !lng && mall.x_coord && mall.y_coord) {
                 const x = parseFloat(mall.x_coord);
                 const y = parseFloat(mall.y_coord);
@@ -160,7 +171,7 @@ async function initApp() {
         showToast("❌ Failed to load static data.");
     }
 }
-
+    // Fetches the live availability data for HDB Carparks and updates the state accordingly. If triggered manually, it shows a loading state and confirmation message upon completion or failure
 async function fetchLiveHdbData(isManual = false) {
     if (isManual) {
         elements.refreshBtn.classList.add('spinning');
@@ -195,7 +206,7 @@ async function fetchLiveHdbData(isManual = false) {
         if (isManual) elements.refreshBtn.classList.remove('spinning');
     }
 }
-
+// Calculates and updates the last updated text to show previous update time
 function updateTimeAgo() {
     const now = new Date();
     const diffMins = Math.floor((now - appState.lastUpdated) / 60000);
@@ -203,7 +214,7 @@ function updateTimeAgo() {
 }
 
 elements.refreshBtn.addEventListener('click', () => fetchLiveHdbData(true));
-
+// Toggles between light and dark modes
 elements.themeToggle.addEventListener('click', () => {
     const isDark = document.body.getAttribute('data-theme') === 'dark';
     document.body.setAttribute('data-theme', isDark ? 'light' : 'dark');
@@ -216,7 +227,7 @@ elements.sortHdb.addEventListener('click', () => {
     renderCurrentTab();
     showToast(`↕️ Sorted by ${appState.hdbSortDesc ? 'Highest' : 'Lowest'} Availability`);
 });
-
+// Trigger browser geolocation, calculate distances to all markers and render the nearest ones at the top of the list. Also pans and zooms the map to the user's location and adds a marker there. If geolocation fails, shows an error message.
 elements.nearMeBtn.addEventListener('click', () => {
     if (!navigator.geolocation) return showToast("❌ Geolocation is not supported by your browser.");
 
@@ -240,20 +251,20 @@ elements.nearMeBtn.addEventListener('click', () => {
                     : Infinity;
             });
 
+            appState.userLocation = { lat: userLat, lng: userLon }; 
             appState.sortByDistance = true;
             elements.searchInput.value = "";
             appState.searchQuery = ""; 
             
             map.setView([userLat, userLon], 14);
-            L.circleMarker([userLat, userLon], { color: '#ef4444', radius: 8, fillOpacity: 1 }).addTo(markerLayerGroup).bindPopup("<b>📍 You are here</b>").openPopup();
 
-            renderCurrentTab();
+            renderCurrentTab(true); 
             showToast("✅ Showing nearest locations!");
         },
-        () => showToast("❌ Unable to retrieve your location.")
+        () => showToast("❌ Unable to retrieve your location. Check browser permissions.")
     );
 });
-
+// Handle switching between HDB and Mall Tabs, resetting map view and filters on switch
 elements.tabs.forEach(tab => {
     tab.addEventListener('click', () => {
         elements.tabs.forEach(t => t.classList.remove('active'));
@@ -270,13 +281,31 @@ elements.tabs.forEach(tab => {
     });
 });
 
-function renderCurrentTab() {
+function renderCurrentTab(openUserPopup = false) {
     const query = appState.searchQuery;
     let hasResults = false;
     
     // Clears the map clean every time rendering happens
     markerLayerGroup.clearLayers();
 
+    // 1. Draw the User Location Pin First (if it exists)
+    if (appState.userLocation) {
+        const userMarker = L.circleMarker([appState.userLocation.lat, appState.userLocation.lng], {
+            radius: 8,
+            fillColor: "#00d9ff", // Bright Blue
+            color: "#000000",     // White border
+            weight: 3,
+            opacity: 1,
+            fillOpacity: 1
+        }).addTo(markerLayerGroup)
+          .bindPopup("<b>📍 You are here!</b>");
+          
+        if (openUserPopup) {
+            userMarker.openPopup();
+        }
+    }
+
+    // 2. Render HDBs
     if (appState.currentTab === 'hdb-section') {
         let filtered = appState.hdbData.filter(item => item.searchStr.includes(query));
         
@@ -310,7 +339,7 @@ function renderCurrentTab() {
             </div>
         `}).join("");
 
-        // Draw HDB Blue Pins
+        // Draw HDB Pins
         displayData.forEach(h => {
             if (h.lat && h.lng) {
                 const marker = L.circleMarker([h.lat, h.lng], {
@@ -333,6 +362,7 @@ function renderCurrentTab() {
             }
         });
 
+    // 3. Render Malls
     } else if (appState.currentTab === 'mall-section') {
         let filtered = appState.mallData.filter(item => item.searchStr.includes(query));
         
@@ -364,7 +394,7 @@ function renderCurrentTab() {
             </tr>
         `}).join("");
 
-        // Draw Mall Green Pins Safely
+        // Draw Mall Pins
         displayData.forEach(m => {
             if (m.lat && m.lng) {
                 const marker = L.circleMarker([m.lat, m.lng], {
@@ -406,6 +436,7 @@ elements.clearBtn.addEventListener('click', () => {
     elements.searchInput.value = "";
     appState.searchQuery = "";
     appState.sortByDistance = false;
+    appState.userLocation = null;
     map.setView([1.3521, 103.8198], 11); 
     renderCurrentTab();
 });
