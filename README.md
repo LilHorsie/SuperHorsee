@@ -25,13 +25,21 @@ This website is built for drivers in Singapore who want to save time and money w
 
 ### Features Left to Implement
 - **Favorites System** - to let users bookmark specific malls or HDB carparks for quicker access in the future.
+- **Notifications** - to let users recieve app related notifications
 
 ## Technologies Used
 
-- **Visual Studio**
-    - Used as the primary Integrated Development Environment (IDE) to write, edit, and manage the project's code.
-- **Google Chrome**
-    - Used as the primary web browser for testing the application's functionality, debugging, and checking responsiveness via Chrome Developer Tools.
+- [Visual Studio Basic](https://developer.mozilla.org/en-US/docs/Web/HTML)
+    - The project uses Visual Studio Basic for development and IDE
+- [Google Chrome](https://google.com)
+    - For Local Server Testing
+- [Github](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+    - The project uses Github for Live Page
+- [Data.gov.sg](https://data.gov.sg/datasets?topics=housing%7Ctransport&resultId=d_ca933a644e55d34fe21f28b8052fac63)
+    - The project uses APIs provided on Data.gov.sg
+- [Figma and CartoDB](https://leafletjs.com/)
+    - The project uses Leafelet Maps API with CartoDB
+
 
 ## Testing
 
