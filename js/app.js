@@ -95,6 +95,7 @@ function initMap() {
     markerLayerGroup = L.layerGroup().addTo(map);
 }
 // Allows the user to click on a carpark or mall and have the map pan and zoom to the selected location
+// Once panned, highlights the selected marker by changing its color and size, while resetting any previously highlighed
 window.panToMap = function(lat, lng, title) {
     if (lat && lng) {
         map.setView([lat, lng], 16);
@@ -399,7 +400,7 @@ function renderCurrentTab(openUserPopup = false) {
             }
         });
 
-    // 3. Render Malls
+    // 3. Render Mall Data
     } else if (appState.currentTab === 'mall-section') {
         let filtered = appState.mallData.filter(item => item.searchStr.includes(query));
         

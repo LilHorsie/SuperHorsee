@@ -120,7 +120,7 @@ body {
     z-index: 1;
 }
 
-/* --- Custom Scrollbar for Left Panel --- */
+/* --- Scrollbar for Left Panel --- */
 .left-panel::-webkit-scrollbar {
     width: 8px;
 }
@@ -185,7 +185,7 @@ body {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* --- Plush Search Input --- */
+/* --- Search Input --- */
 .search-container {
     display: flex;
     gap: 15px;
@@ -367,7 +367,7 @@ tbody tr:hover {
     padding: 10px 0;
 }
 
-/* --- Upgraded Carpark Cards --- */
+/* --- Carpark Cards --- */
 .carpark-card {
     background-color: var(--surface);
     border: 1px solid var(--border);
