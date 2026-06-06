@@ -51,7 +51,7 @@ Tests to ensure that the functions are working (eg GPS, auto-refresh, live data)
     1. Go to the "Carpark Lot Availability" page.
     2. Try to search for an invalid address (e.g., "zzzz") and verify that the "No results found" message appears.
     3. Clear the search and verify the full list repopulates.
-    4. Disconnect the internet or manipulate the API URL to force a failure, and verify the red error banner appears telling the user the data failed to load.
+    4. Disconnect the internet or manipulate the API URL to force a failure, and verify the error banner appears telling the user the data failed to load.
 2. **Mall Pricing Search:**
     1. Go to the "Singapore Mall Carpark Pricing" page.
     2. Type "Vivo" and verify that the table filters down only to VivoCity.
@@ -71,4 +71,4 @@ The project is currently deployed and hosted live on GitHub Pages. You can view 
 ### Content
 - The live carpark availability data was retrieved from the [Data.gov.sg Carpark Availability API](https://data.gov.sg/datasets?topics=housing|transport&resultId=d_ca933a644e55d34fe21f28b8052fac63#GET/transport/carpark-availability).
 - Static HDB carpark locations data was retrieved from the [Data.gov.sg Detailed Carpark Information](https://data.gov.sg/datasets/d_23f946fa557947f93a8043bbef41dd09/view).
-
+- The geolocation map was retrived from Leaflet [Leaflet](https://leafletjs.com).
